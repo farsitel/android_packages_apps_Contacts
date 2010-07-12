@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the activity that shows contacts.  This is the name
+         used in the Launcher icon. -->
+    <string name="contactsList">آشنایان</string>
+
+    <!-- Title for the activity that dials the phone.  This is the name
+         used in the Launcher icon. -->
+    <string name="launcherDialer">شماره‌گیر</string>
+
+    <!-- Name of activity that allows users to create shortcuts on the home screen to a contact.
+         This shows up in a list of things like bookmark, folder, music playlist, etc -->
+    <string name="shortcutContact">آشنا</string>
+
+    <!-- Name of activity that allows users to create shortcuts on the home screen to dial a contact.
+         This shows up in a list of things like bookmark, folder, music playlist, etc -->
+    <string name="shortcutDialContact">تماس مستقیم</string>
+
+    <!-- Name of activity that allows users to create shortcuts on the home screen to message (SMS) a contact.
+         This shows up in a list of things like bookmark, folder, music playlist, etc -->
+    <string name="shortcutMessageContact">پیامک مستقیم</string>
+
+    <!-- Activity title when the user is selecting a contact for a shortcut. -->
+    <string name="shortcutActivityTitle">یکی از آشنایان را برای میانبر انتخاب کنید</string>
+
+    <!-- Activity title when the user is selecting a contact for a direct dial shortcut. -->
+    <string name="callShortcutActivityTitle">شماره‌ای برای تماس انتخاب کنید</string>
+
+    <!-- Activity title when the user is selecting a contact for a direct message shortcut. -->
+    <string name="messageShortcutActivityTitle">شماره‌ای برای ارسال پیامک انتخاب کنید</string>
+
+    <!-- Title for the activity that shows only starred contacts -->
+    <string name="starredList">ستاره‌دار</string>
+
+    <!-- Title for the activity that shows only frequently contacted contacts -->
+    <string name="frequentList">مکرر</string>
+
+    <!-- Title for the activity that shows a mix of starred contacts and frequently contacted
+         contacts. -->
+    <string name="strequentList">مورد علاقه‌ها</string>
+
+    <!-- The title bar when viewing the contact details activity -->
+    <string name="viewContactTitle">جزئیات آشنا</string>
+
+    <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
+         viewing a contact. This string represents the built in way to view the contact. -->
+    <string name="viewContactDesription">مشاهدهٔ آشنا</string>
+
+    <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
+         editing a contact. This string represents the built in way to edit the contact. -->
+    <string name="editContactDescription">ویرایش آشنا</string>
+
+    <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
+         creating a new contact. This string represents the built in way to create the contact. -->
+    <string name="insertContactDescription">ایجاد آشنا</string>
+
+    <!-- Hint text in the search box when the user hits the Search key while in the contacts app -->
+    <string name="searchHint">جستجو میان آشنایان</string>
+
+    <!-- Menu item to search contacts -->
+    <string name="menu_search">جستجو</string>
+
+    <!-- Menu item to create a new contact -->
+    <string name="menu_newContact">آشنای جدید</string>
+
+    <!-- Menu item used to view the details for a specific contact -->
+    <string name="menu_viewContact">مشاهدهٔ آشنا</string>
+
+    <!-- Menu item used to call a contact, containing the name of the contact to call -->
+    <string name="menu_callNumber">تماس با <xliff:g id="name">%s</xliff:g></string>
+
+    <!-- Menu item used to add a star to a contact, which makes that contact show up at the top of favorites -->
+    <string name="menu_addStar">افزودن به مورد علاقه‌ها</string>
+
+    <!-- Menu item used to remove a star from a contact, making the contact no longer show up at the top of favorites -->
+    <string name="menu_removeStar">حذف از مورد علاقه‌ها</string>
+
+    <!-- Optional menu item to encode the current contact as a QR Code using Barcode Scanner. -->
+    <string name="menu_showBarcode">نمایش بارکد</string>
+
+    <!-- Menu item used to edit a specific contact -->
+    <string name="menu_editContact">ویرایش</string>
+
+    <!-- Menu item used to delete a specific contact -->
+    <string name="menu_deleteContact">حذف</string>
+
+    <!-- Menu item used to call a specific contact when viewing the details of that contact. -->
+    <string name="menu_call">تماس</string>
+
+    <!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->
+    <string name="menu_sendSMS">ارسال پیامک</string>
+
+    <!-- Menu item used to send an email message to a specific email address -->
+    <string name="menu_sendEmail">ارسال پست‌الکترونیکی</string>
+
+    <!-- Menu item used to view a contact's address on a map -->
+    <string name="menu_viewAddress">نشانی در نقشه</string>
+
+    <!-- Menu item that makes a phone the default for a contact. The default number used when you
+         try to call a contact without specifying a specific number. -->
+    <string name="menu_makeDefaultNumber">شمارهٔ پیش‌فرض قرار بده</string>
+
+    <!-- Menu item that makes an email address the default for a contact. The default email used
+         when you try to email a contact without specifying a specific address. -->
+    <string name="menu_makeDefaultEmail">پست‌الکترونیکی پیش‌فرض قرار بده</string>
+
+    <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
+    <string name="menu_splitAggregate">جداسازی</string>
+
+    <!-- Dialog title for the list of constituent contacts in the split aggregate dialog. -->
+    <string name="splitAggregate_title">جداسازی</string>
+
+    <!-- Toast shown after a contact has been split from an aggregate by a user action -->
+    <string name="contactsSplitMessage">آشنایان جدا شدند</string>
+
+    <!-- Title of the confirmation dialog for separating contacts into multiple instances  -->
+    <string name="splitConfirmation_title">جداسازی</string>
+
+    <!-- Confirmation dialog for separating contacts into multiple instances  -->
+    <string name="splitConfirmation">Are you sure you want to separate this single contact
+        into multiple contacts: one for each set of contact information that was joined into it?
+    </string>
+
+    <!-- Menu item that joins an aggregate with another aggregate -->
+    <string name="menu_joinAggregate">ملحق‌سازی</string>
+
+    <!-- Menu item to toggle the tabs that show where the contact data comes from. -->
+    <string name="menu_showSources">نمایش مبدأ</string>
+    <string name="menu_hideSources">عدم نمایش مبدأ</string>
+
+    <!-- Activity title for the Join Contact list -->
+    <string name="titleJoinAggregate">ملحق‌کردن آشنا</string>
+
+    <!-- Heading of the Join Contact screen -->
+    <string name="titleJoinContactDataWith">ملحق‌کردن چند آشنا</string>
+
+    <!-- Info blurb on the Join Contact screen -->
+    <string name="blurbJoinContactDataWith">آشنایی را که می‌خواهید به <xliff:g id="name">%s</xliff:g> ملحق کنید، انتخاب کنید.</string>
+
+    <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
+    <string name="showAllContactsJoinItem">نمایش همهٔ آشناها</string>
+
+    <!-- List separator for the Join Contact list: Suggestions -->
+    <string name="separatorJoinAggregateSuggestions">آشنایان پیشنهادی</string>
+
+    <!-- List separator for the Join Contact list: A-Z -->
+    <string name="separatorJoinAggregateAll">همهٔ آشنایان</string>
+
+    <!-- Toast shown after two contacts have been joined by a user action -->
+    <string name="contactsJoinedMessage">آشنایان ملحق شدند</string>
+
+    <!-- Menu item that opens the Options activity for a given contact -->
+    <string name="menu_contactOptions">گزینه‌ها</string>
+
+    <!-- Title for the Options activity for a given contact -->
+    <string name="contactOptionsTitle">گزینه‌ها</string>
+
+    <!-- Confirmation dialog title after users selects to delete a contact. -->
+    <string name="deleteConfirmation_title">حذف</string>
+
+    <!-- Warning dialog contents after users selects to delete a ReadOnly contact. -->
+    <string name="readOnlyContactWarning">شما نمی‌توانید آشنایان را از حساب‌های فقط خواندنی حذف کنید، ولی می‌توانید آنها را در فهرست آشنایان پنهان کنید.</string>
+
+    <!-- Warning dialog contents after users selects to delete a contact with ReadOnly and Writable sources. -->
+    <string name="readOnlyContactDeleteConfirmation">این آشنا شامل اطلاعاتی از چندین حساب است. اطلاعات مربوط به حساب‌های فقط خواندنی در فهرست آشنایان شما پنهان خواهند شد و حذف نخواهند شد.</string>
+
+    <!-- Warning dialog contents after users selects to delete a contact with multiple Writable sources. -->
+    <string name="multipleContactDeleteConfirmation">با حذف این آشنا، اطلاعاتی از چندین حساب حذف خواهد شد.</string>
+
+    <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
+    <string name="deleteConfirmation">این آشنا حذف خواهد شد.</string>
+
+    <!-- Menu item to indicate you are done editing a contact and want to save the changes you've made -->
+    <string name="menu_done">اتمام</string>
+
+    <!-- Menu item to indicate you want to stop editing a contact and NOT save the changes you've made -->
+    <string name="menu_doNotSave">بازگشت</string>
+
+    <!-- The title of the activity that edits and existing contact -->
+    <string name="editContact_title_edit">ویرایش آشنا</string>
+
+    <!-- The title of the activity that creates a new contact -->
+    <string name="editContact_title_insert">آشنای جدید</string>
+
+    <!-- Button that adds more info to a contact, like a new phone number, email address, or postal address -->
+    <string name="menu_addItem">اطلاعات بیشتر</string>
+
+    <!-- The label describing the phonetic pronunciation/reading of a contact name -->
+    <string name="label_phonetic_name">آواشناسی</string>
+
+    <!-- The label describing the Notes field of a contact. This field allows free form text entry about a contact -->
+    <string name="label_notes">یادداشت‌ها</string>
+
+    <!-- The label describing the custom ringtone for a contact -->
+    <string name="label_ringtone">صدای زنگ</string>
+
+    <!-- The label for a list of all the groups that the contact is associated with -->
+    <string name="label_groups">گروه‌ها</string>
+
+    <!-- Provides a delimeter in a list of groups. For example, "g1, g2" has ", g2" generated using this string -->
+    <string name="group_list">، <xliff:g id="groupName">%s</xliff:g></string>
+
+    <!-- Menu item used to send user to the edit contact screen -->
+    <string name="menu_viewGroup">ویرایش گروه‌ها</string>
+
+    <!-- Hint text for the contact name when editing -->
+    <string name="ghostData_name">اولی و آخری</string>
+
+    <!-- Hint text for the phonetic reading of the contact name when editing -->
+    <string name="ghostData_phonetic_name">نام آواشناسی</string>
+
+    <!-- Hint text for the organization name when editing -->
+    <string name="ghostData_company">شرکت</string>
+
+    <!-- Hint text for the organization position when editing -->
+    <string name="ghostData_title">سمت</string>
+
+    <!-- Hint text for an IM account when editing -->
+    <string name="ghostData_im">شناسهٔ IM</string>
+
+    <!-- Hint text for the notes field when editing -->
+    <string name="ghostData_notes">یادداشت شما</string>
+
+    <!-- Hint text for the phone number field when editing -->
+    <string name="ghostData_phone">شمارهٔ تلفن</string>
+
+    <!-- Hint text for the email address field when editing -->
+    <string name="ghostData_email">پست‌الکترونیکی</string>
+
+    <!-- Hint text for the postal address field when editing -->
+    <string name="ghostData_postal">نشانی پستی</string>
+
+    <!-- Hint text for the group field when editing -->
+    <string name="ghostData_group">گروه‌های نمایشی</string>
+
+    <!-- Message displayed in a toast when you try to view the details of a contact that
+         for some reason doesn't exist anymore. -->
+    <string name="invalidContactMessage">آشنا وجود ندارد.</string>
+
+    <!-- When picking a contact from a list of all contacts there is an entry at the top of the
+         list that allows the user to create a new contact, which this string is used for -->
+    <string name="pickerNewContactHeader">ایجاد آشنای جدید</string>
+
+    <!-- Dialog title when you select a label when creating or edit a contact -->
+    <string name="selectLabel">انتخاب برچسب</string>
+
+    <!-- Header that expands to list all of the types of phone numbers when editing or creating a phone number for a contact -->
+    <string name="phoneLabelsGroup">تلفن</string>
+
+    <!-- Header that expands to list all of the types of email addresses when editing or creating an email address for a contact -->
+    <string name="emailLabelsGroup">پست‌الکترونیکی</string>
+
+    <!-- Header that expands to list all of the types of IM account when editing or creating an IM account for a contact -->
+    <string name="imLabelsGroup">پیام سریع</string>
+
+    <!-- Header that expands to list all of the types of postal addresses when editing or creating an postal address for a contact -->
+    <string name="postalLabelsGroup">نشانی پستی</string>
+
+    <!-- Header that expands to list other types of data you can add to a contact, like notes and organizations -->
+    <string name="otherLabelsGroup">دیگر</string>
+
+    <!-- The order of the items below is important, don't reorder without changing EditContactActivity.java -->
+    <skip/>
+    <!-- The labels that are under the otherLabelsGroup when editing a contact. -->
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>سازمان</item>
+        <!-- A note associated with a contact -->
+        <item>یادداشت</item>
+    </string-array>
+
+    <!-- Title of the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="errorDialogTitle">بدون تصویر</string>
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText">هیچ تصویری روی گوشی وجود ندارد.</string>
+
+    <!-- Description of the activity used to set a photo in the pictures application as the icon for a contact -->
+    <string name="attachToContact">شمایل آشنا</string>
+
+    <!-- Title of the dialog used to set a custom label for a contact detail, like a phone number or email address.
+         For example, this may be used to set a phone number's label to "Vaction house" -->
+    <string name="customLabelPickerTitle">نام برچسب سفارشی</string>
+
+    <!-- The menu item to open the list of groups to display -->
+    <string name="menu_displayGroup">گزینه‌های نمایش</string>
+
+    <!-- Title of activity that lets user pick which contact groups to display -->
+    <string name="displayGroups">گزینه‌های نمایش</string>
+
+    <!-- The menu item that leads to the settings for contact syncing -->
+    <string name="syncGroupPreference">ویرایش گروه‌های همگام</string>
+
+    <!-- The menu item that launches the SIM card import activity -->
+    <string name="importFromSim">وارد کردن آشنا</string>
+
+    <!-- Check box label that allows calls to the contact to be sent directly to voicemail -->
+    <string name="send_to_voicemail_checkbox">تماس‌ها را به صندوق صوتی ارسال کن</string>
+
+    <!-- String letting the user know that calls from the contact they're viewing will be sent directly to voicemail -->
+    <string name="send_to_voicemail_view">تماس‌ها به صورت مستقیم به صندوق صوتی ارسال می‌شوند.</string>
+
+    <!-- String used to indicate that a contact doesn't have a custom ringtone -->
+    <string name="default_ringtone">پیش‌فرض</string>
+
+    <!-- The button/menu item that allows you to add a picture to a contact -->
+    <string name="addPicture">افزودن شمایل</string>
+
+    <!-- The button/menu item that allows you to change an existing contact picture -->
+    <string name="changePicture">تغییر شمایل</string>
+
+    <!-- The menu item that allows you to remove a picture from a contact -->
+    <string name="removePicture">حذف شمایل</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying all contacts -->
+    <string name="noContacts">هیچ آشنایی وجود ندارد.</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying results after searching contacts -->
+    <string name="noMatchingContacts">هیچ آشنای یکسانی پیدا نشد.</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying only contacts that have phone numbers -->
+    <string name="noContactsWithPhoneNumbers">هیچ آشنایی که شماره تلفنی داشته باشد، پیدا نشد.</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying favorite contacts -->
+    <string name="noFavorites">هیچ آشنای موردعلاقه‌ای نیست.</string>
+
+    <!-- Title for group selection dialog. The dialog contains a list of contact groups that the
+         user can pick from, indicating they only want to see the contacts in that group. -->
+    <string name="select_group_title">گروه‌ها</string>
+
+    <!-- The text displayed when the contacts list is empty while displaying a single group of contacts -->
+    <string name="groupEmpty">گروه \"<xliff:g id="groupName">%s</xliff:g>\" خالی است.</string>
+
+    <!-- The description of all groups when asking the user what they want to display -->
+    <string name="showAllGroups">همهٔ آشنایان</string>
+
+    <!-- The title of the filter to only show contacts with phone numbers -->
+    <string name="showFilterPhones">فقط آشنایانی که شمارهٔ تلفن دارند</string>
+
+    <!-- The description of the filter to only show contacts with phone numbers -->
+    <string name="showFilterPhonesDescrip">فقط آشنایانی را که شمارهٔ تلفن دارند نمایش بده</string>
+
+    <!-- The header over the list of all contacts groups -->
+    <string name="headerContactGroups">آشنایانی را برای نمایش انتخاب کنید</string>
+
+    <!-- The description of a group with the total number of contacts -->
+    <plurals name="groupDescrip">
+        <item quantity="other"><xliff:g id="count">%0$d</xliff:g> آشنا</item>
+    </plurals>
+
+    <!-- The description of a group with the total number of contacts, and the total number of contacts with phone numbers -->
+    <plurals name="groupDescripPhones">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> آشنا، <xliff:g id="countWithPhones">%2$d</xliff:g> با شماره تلفن</item>
+    </plurals>
+
+    <!-- The setting to sync all contacts from the server -->
+    <string name="syncAllGroups">همهٔ آشنایان را همگام کن</string>
+
+    <!-- The name of the system "My Contacts" group. This should be kept in sync with the web UI -->
+    <string name="groupNameMyContacts">آشنایان شما</string>
+
+    <!-- The group type that displays only contacts with phone numbers -->
+    <string name="groupNameWithPhones">آشنایان با شماره تلفن</string>
+
+    <!-- The group type that displays "Starred in Android" contacts -->
+    <string name="starredInAndroid">در آندروید ستاره‌دار شده است</string>
+
+    <!-- Displayed in a spinner dialog after the user creates a contact and it's being saved to the database -->
+    <string name="savingContact">در حال ذخیره‌سازی محتوا \u2026</string>
+
+    <!-- Displayed in a spinner dialog as user changes to display options are saved -->
+    <string name="savingDisplayGroups">در حال ذخیره‌سازی نمایش\u2026</string>
+
+    <!-- Toast displayed when a contact is created -->
+    <string name="contactCreatedToast">آشنا ایجاد شد.</string>
+
+    <!-- Toast displayed when a contact is saved -->
+    <string name="contactSavedToast">آشنا ذخیره شد.</string>
+
+    <!-- Toast displayed when saving a contact failed -->
+    <string name="contactSavedErrorToast">خطا، نمی‌توان تغییرات آشنا را ذخیره کرد.</string>
+
+    <!-- Separator in the contact details list describing that the items below it will place a call when clicked -->
+    <string name="listSeparatorCallNumber">تماس</string>
+
+    <!-- Section header in the Edit Contacts screen for phone numbers -->
+    <string name="listSeparatorCallNumber_edit">شماره تلفن‌ها</string>
+
+    <!-- Separator in the contact details list describing that the items below it will send an SMS/MMS to a phone number -->
+    <string name="listSeparatorSendSmsMms">ارسال پیامک</string>
+
+    <!-- Separator in the contact details list describing that the items below it will send an email -->
+    <string name="listSeparatorSendEmail">ارسال پست‌الکترونیکی</string>
+
+    <!-- Section header in the Edit Contacts screen for E-mail addresses -->
+    <string name="listSeparatorSendEmail_edit">پست‌های الکترونیکی</string>
+
+    <!-- Separator in the contact details list describing that the items below it will send an IM -->
+    <string name="listSeparatorSendIm">ارسال IM</string>
+
+    <!-- Section header in the Edit Contacts screen for Instant messanger accounts -->
+    <string name="listSeparatorSendIm_edit">نشانی‌های چتی</string>
+
+    <!-- Separator in the contact details list describing that the items below it will open maps with the given address -->
+    <string name="listSeparatorMapAddress">نشانی نقشه‌ای</string>
+
+    <!-- Section header in the Edit Contacts screen for map addresses -->
+    <string name="listSeparatorMapAddress_edit">نشانی‌های پستی</string>
+
+    <!-- Separator in the contact details list describing that the items below are non-actionable organization information -->
+    <string name="listSeparatorOrganizations">سازمان‌ها</string>
+
+    <!-- Separator in the contact details list describing that the items below are non-actionable group information -->
+    <string name="listSeparatorGroups">گروه‌ها</string>
+
+    <!-- Separator in the contact details list describing that the items below are random other non-actionable information about a contact -->
+    <string name="listSeparatorOtherInformation">اطلاعات دیگر</string>
+
+    <!-- Section header in the Edit Contacts screen for other options, such as setting ringtone -->
+    <string name="listSeparatorOtherInformation_edit">گزینه‌های دیگر</string>
+
+    <!-- Section header in the Edit Contacts screen for the "Add more items" button -->
+    <string name="listSeparatorMore_edit">بیشتر</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" is selected -->
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">در حال نمایش ۱ آشنا با شماره تلفن</item>
+        <item quantity="other">در حال نمایش <xliff:g id="count">%d</xliff:g> آشنا با شماره تلفن</item>
+    </plurals>
+
+    <!-- Displayed at the top of the contacts showing the zero as total number of contacts visible when "Only contacts with phones" is selected -->
+    <string name="listTotalPhoneContactsZero">هیج آشنایی با شماره تلفن وجود ندارد</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" not selected -->
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">در حال نمایش ۱ آشنا</item>
+        <item quantity="other">در حال نمایش <xliff:g id="count">%d</xliff:g> آشنا</item>
+    </plurals>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Only contacts with phones" not selected -->
+    <string name="listTotalAllContactsZero">هیچ آشنای قابل مشاهده‌ای وجود ندارد</string>
+
+    <!-- Displayed at the top of the contacts showing the total number of contacts found when "Only contacts with phones" not selected -->
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">یک آشنا پیدا شد</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> آشنا پیدا شد</item>
+    </plurals>
+
+    <!-- Displayed at the top of the contacts showing the zero total number of contacts found when "Only contacts with phones" not selected -->
+    <string name="listFoundAllContactsZero">آشنا پیدا نشد</string>
+
+    <!-- The description text for the social activity stream tab. Space is limited for this string, so the shorter the better -->
+    <string name="socialStreamIconLabel">اجتماعی</string>
+
+    <!-- The description text for the contacts tab. Space is limited for this string, so the shorter the better -->
+    <string name="contactsIconLabel">آشنایان</string>
+
+    <!-- The description text for the favorites tab. Space is limited for this string, so the shorter the better -->
+    <string name="contactsFavoritesLabel">موردعلاقه‌ها</string>
+
+    <!-- The description text for the dialer tab. Space is limited for this string, so the shorter the better -->
+    <string name="dialerIconLabel">تلفن</string>
+
+    <!-- The description text for the call log tab. Space is limited for this string, so the shorter the better -->
+    <string name="recentCallsIconLabel">تماس‌ها</string>
+    <string name="liveFolderAll">همهٔ آشنایان</string>
+    <string name="liveFolderFavorites">آشنایان ستاره‌دار</string>
+    <string name="liveFolderPhone">آشنایان با شماره تلفن</string>
+
+    <!-- Menu item used to send an SMS or MMS message to a phone number  -->
+    <string name="menu_sendTextMessage">ارسال پیامک</string>
+
+    <!-- Menu item used to call a contact from the call log -->
+    <string name="recentCalls_callNumber">تماس با <xliff:g id="name">%s</xliff:g></string>
+
+    <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
+    <string name="recentCalls_editNumberBeforeCall">قبل از تماس، شماره را ویرایش کن</string>
+
+    <!-- Menu item used to add a number from the call log to contacts -->
+    <string name="recentCalls_addToContact">افزودن به آشنایان</string>
+
+    <!-- Menu item used to remove a single call from the call log -->
+    <string name="recentCalls_removeFromRecentList">حذف از تماس‌ها</string>
+
+    <!-- Menu item used to remove all calls from the call log -->
+    <string name="recentCalls_deleteAll">پاک‌سازی تماس‌ها</string>
+
+    <!-- Text displayed when the call log is empty -->
+    <string name="recentCalls_empty">تماس‌ها خالی است.</string>
+
+    <!-- The title of a dialog that displays the IMEI of the phone -->
+    <string name="imei">IMEI</string>
+
+    <!-- The title of a dialog that displays the MEID of the CDMA phone -->
+    <string name="meid">MEID</string>
+
+    <!-- String used for displaying calls to the voicemail number in the call log -->
+    <string name="voicemail">صندوق صوتی</string>
+
+    <!-- String used to display calls from unknown numbers in the call log -->
+    <string name="unknown">نامشخص</string>
+
+    <!-- String used to display calls from private numbers in the call log -->
+    <string name="private_num">شماره خصوصی</string>
+
+    <!-- String used to display calls from pay phone in the call log -->
+    <string name="payphone">شمارهٔ هزینه‌دار</string>
+
+    <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
+         to dial using the physical keyboard -->
+    <string name="dialerKeyboardHintText">برای تماس از صفحه‌کلید استفاده کن</string>
+
+    <!-- Hint text displayed in the "digits" field above the dialer's
+         dialpad, if there's already a call in progress.  (This hint
+         reminds the user that the dialer will add a new call, as opposed
+         to sending DTMF tones over the current call.) -->
+    <string name="dialerDialpadHintText">برای ایجاد یک تماس جدید، تماس را بزنید</string>
+
+    <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
+    <string name="simContacts_emptyLoading">در حال بارگذاری از روی سیم‌کارت\u2026</string>
+
+    <!-- Dialog title displayed when loading a phone number from the SIM card for speed dial -->
+    <string name="simContacts_title">آشنایان سیم‌کارت</string>
+
+    <!-- Displayed when a user is prompted to setup a Google account for syncing -->
+    <string name="contactsSyncPlug"><font fgcolor="#ffffffff">آشنایان گوگل خود را همگام کنید!</font>
+    \nبعد از همگام‌سازی، آشنایان شما همراه شما در گوشی شما خواهند بود.</string>
+
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled -->
+    <string name="noContactsHelpText">"شما هیچ آشنایی برای نمایش ندارید.\n\nبرای افزودن آشنا، دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را بزنید و یکی را لمس کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی یک حساب با آشنایان که می‌توانید آنرا با گوشی‌تان همگام کنید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>آشنای جدید</b></font> برای ایجاد یک آشنای جدید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ورود/خروج</b></font>\n</li>"
+    </string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled -->
+    <string name="noContactsHelpTextWithSync">"شما هیچ آشنایی برای نمایش ندارید. (اگر به تازگی یک حساب اضافه‌کردید، چند دقیقه برای همگام‌سازی آشنایان طول خواهد کشید.)\n\nبرای اضافه‌کردن آشنایان، دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را بزنید و یکی را لمس کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی یک حساب با آشنایان که می‌توانید آنرا با گوشی‌تان همگام کنید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>گزینه‌های نمایش</b></font> برای تغییر اینکه چه آشنایانی قابل مشاهده باشند\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>آشنای جدید</b></font> برای ایجاد یک آشنای جدید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ورود/خروج</b></font>\n</li>"
+    </string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma)-->
+    <string name="noContactsNoSimHelpText">"شما هیچ آشنایی برای نمایش ندارید.\n\nبرای اضافه‌کردن آشنایان، دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را بزنید و یکی را لمس کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی یک حساب با آشنایان که می‌توانید آنرا با گوشی‌تان همگام کنید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>آشنای جدید</b></font> برای ایجاد یک آشنای جدید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ورود/خروج</b></font>\n</li>"
+    </string>
+
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma) -->
+    <string name="noContactsNoSimHelpTextWithSync">"شما هیچ آشنایی برای نمایش ندارید. (اگر به تازگی یک حساب اضافه‌کردید، چند دقیقه برای همگام‌سازی آشنایان طول خواهد کشید)\n\nبرای اضافه‌کردن آشنایان، دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را بزنید و یکی را لمس کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی یک حساب با آشنایان که می‌توانید آنرا با گوشی‌تان همگام کنید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>گزینه‌های نمایش</b></font> برای تغییر اینکه چه آشنایانی قابل مشاهده باشند\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>آشنای جدید</b></font> برای ایجاد یک آشنای جدید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ورود/خروج</b></font>\n</li>"
+    </string>
+
+    <!-- Displayed full screen when the user has no favorites and they are displaying the favorites tab -->
+    <string name="noFavoritesHelpText">"شما هیچ موردعلاقه‌ای ندارید.\n\nبرای اضافه‌کردن یک آشنا به فهرست موردعلاقه‌هایتان:\n
+        <li>زبانهٔ <b>آشنایان</b> را لمس کنید\n</li>
+        \n<li>آشنایی را که می‌خواهید به فهرست موردعلاقه‌ها اضافه کنید را لمس کنید\n</li>
+        \n<li>و در آخر ستاره‌ای که در کنار نام آشنا وجود دارد را بزنید\n</li>"
+    </string>
+
+    <!-- Activity title for the activity that lets the user choose which groups of contacts to sync from the server -->
+    <string name="seclectSyncGroups_title">گروه‌هایی را برای همگام‌سازی انتخاب کنید</string>
+
+    <!-- Live folder label for all contacts -->
+    <string name="liveFolder_all_label">همهٔ آشنایان</string>
+
+    <!-- Live folder label for only starred contacts -->
+    <string name="liveFolder_favorites_label">ستاره‌دار</string>
+
+    <!-- Live folder label for all contacts with phone numbers -->
+    <string name="liveFolder_phones_label">شماره‌تلفن‌ها</string>
+
+    <!-- Item label: jump to the in-call DTMF dialpad.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
+
+    <!-- Item label: jump to the in-call UI.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_returnToInCallScreen">بازگشت به تماس در حال انجام</string>
+
+    <!-- Item label: use the Dialer's dialpad to add another call.
+         (Part of a list of options shown in the dialer when another call
+         is already in progress.) -->
+    <string name="dialer_addAnotherCall">افزودن تماس</string>
+
+    <!-- Title bar for call detail screen -->
+    <string name="callDetailTitle">جزئیات تماس</string>
+
+    <!-- Toast for call detail screen when couldn't read the requested details -->
+    <string name="toast_call_detail_error">جزئیات تماس درخواستی را نمی‌توان خواند.</string>
+
+    <!-- In call detail screen, label for call type -->
+    <string name="call_type">نوع</string>
+
+    <!-- Title for incoming call details screen -->
+    <string name="type_incoming">تماس ورودی</string>
+
+    <!-- Title for outgoing call details screen -->
+    <string name="type_outgoing">تماس خروجی</string>
+
+    <!-- Title for missed call details screen -->
+    <string name="type_missed">تماس ناتمام</string>
+
+    <!-- In call detail screen, label for call date/time -->
+    <string name="call_time">زمان</string>
+
+    <!-- In call detail screen, combine date/time string and relative time to give verbose call date/time -->
+    <string name="datetime_relative">"<xliff:g id="datetime" example="Dec 31, 2007, 11:00 am">%1$s</xliff:g> (<xliff:g id="relative" example="4 hours ago">%2$s</xliff:g>)"</string>
+
+    <!-- In call detail screen, label for call duration -->
+    <string name="call_duration">مدت زمان</string>
+
+    <!-- In call detail screen, header title for actions section -->
+    <string name="header_actions">اعمال</string>
+
+    <!-- In edit contact screen, combine the actual ringtone name with prefix for placement in spinner -->
+    <string name="ringtone_spinner">"صدای زنگ: <xliff:g id="ringtone" example="Caribbean Ice">%1$s</xliff:g>"</string>
+
+    <!-- In edit contact screen, add more info spinner title -->
+    <string name="add_more_items">افزودن موارد بیشتر</string>
+
+    <!-- Action string for calling a phone number. -->
+    <string name="actionCall">تماس با <xliff:g id="type" example="mobile">%s</xliff:g></string>
+
+    <!-- Action string for sending an email to an email address. -->
+    <string name="actionEmail">پست‌الکترونیکی به <xliff:g id="type" example="home">%s</xliff:g></string>
+
+    <!-- Action string for sending a text message to a phone number. -->
+    <string name="actionText">پیامک به <xliff:g id="type" example="mobile">%s</xliff:g></string>
+
+    <!-- Action string for sending an instant message to a chat buddy. -->
+    <string name="actionChat">گپ با <xliff:g id="type" example="Google Talk">%s</xliff:g></string>
+
+    <!-- Action string for viewing an address on a map. -->
+    <string name="actionMap">مشاهدهٔ نشانی<xliff:g id="type" example="home">%s</xliff:g></string>
+
+    <!-- Description for incoming calls going to voice mail vs. not -->
+    <string name="actionIncomingCall">تماس‌های ورودی</string>
+
+    <!-- Detail text for incoming calls going to voice mail -->
+    <string name="detailIncomingCallsGoToVoicemail">مستقیما به صندوق پستی ارسال خواهد شد</string>
+
+    <!-- Description of what the contact specific ringtone is set to -->
+    <string name="detailsRingtone">تنظیم به <xliff:g id="ringtone_name" example="Flutey Phone">%s</xliff:g></string>
+
+    <!-- Action string for calling back a number in the call log -->
+    <string name="callBack">تماس</string>
+
+    <!-- Action string for calling a number in the call log again -->
+    <string name="callAgain">تماس مجدد</string>
+
+    <!-- Action string for returning a missed call in the call log -->
+    <string name="returnCall">تماس</string>
+
+    <!-- A nicely formatted call duration displayed when viewing call details. For example "42 mins 28 secs" -->
+    <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> دقیقه و <xliff:g id="seconds" example="28">%s</xliff:g> ثانیه</string>
+
+    <!-- A list separator for the Favorites tab indicating that items below it are frequently called contacts rather than starred contacts -->
+    <string name="favoritesFrquentSeparator">تماس‌های مکرر</string>
+
+    <!-- Dialog title when prompting before creating a contact -->
+    <string name="add_contact_dlg_title">افزودن آشنا</string>
+    <!-- Dialog message when prompting before creating a contact. Includes
+         the email address, e.g. "Add xyz@foo.com to contacts?" -->
+    <string name="add_contact_dlg_message_fmt">\"<xliff:g id="email">%s</xliff:g>\" به آشنایان اضافه شود؟</string>
+
+    <!-- Label for the all data tab in the view and edit card -->
+    <string name="all_tab_label">همه</string>
+
+    <!-- Content description values -->
+
+    <!-- String describing the image on ImageButton one
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_one">یک</string>
+
+    <!-- String describing the image on ImageButton two
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_two">دو</string>
+
+    <!-- String describing the image on ImageButton three
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_three">سه</string>
+
+    <!-- String describing the image on ImageButton four
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_four">چهار</string>
+
+    <!-- String describing the image on ImageButton five
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_five">پنچ</string>
+
+    <!-- String describing the image on ImageButton six
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_six">شش</string>
+
+    <!-- String describing the image on ImageButton seven
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_seven">هفت</string>
+
+    <!-- String describing the image on ImageButton eight
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_eight">هشت</string>
+
+    <!-- String describing the image on ImageButton nine
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_nine">نه</string>
+
+    <!-- String describing the image on ImageButton star
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_star">ستاره</string>
+
+    <!-- String describing the image on ImageButton zero
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_zero">صفر</string>
+
+    <!-- String describing the image on ImageButton pound
+
+        Note: AccessibilityServices use this attribute to announce what the view represents.
+              This is especially valuable for views without textual representation like ImageView.
+    -->
+    <string name="description_image_button_pound">pound</string>
+
+    <!-- Dialog title shown when SD Card does not exist -->
+    <string name="no_sdcard_title">هیچ کارت‌حافظه‌ای وجود ندارد</string>
+
+    <!-- Dialog message shown when SDcard does not exist -->
+    <string name="no_sdcard_message">هیچ کارت‌حافظه‌ای پیدا نشد</string>
+
+    <!-- Dialog title shown when searching VCard data from SD Card -->
+    <string name="searching_vcard_title">در حال جستجو برای VCard</string>
+
+    <!-- Dialog title shown when asking a user whether import contact data from SIM or SD Card -->
+    <string name="select_import_type_title">از کجا می‌خواهید اطلاعات مربوط به آشنایان را وارد کنید؟</string>
+
+    <!-- Action string for selecting SIM for importing contacts -->
+    <string name="import_from_sim">ورود از سیم‌کارت</string>
+
+    <!-- Action string for selecting SD Card for importing contacts -->
+    <string name="import_from_sdcard">ورود از کارت‌حافظه</string>
+
+    <!-- Action that exports all contacts to SD Card -->
+    <string name="export_to_sdcard">خروج به کارت‌حافظه</string>
+
+    <!-- "Import one vCard file" -->
+    <string name="import_one_vcard_string">ورود یک پروندهٔ VCard</string>
+
+    <!-- "Import more than one vCard -->
+    <string name="import_multiple_vcard_string">ورود چند پروندهٔ VCard</string>
+
+    <!-- "Import all vCard files" -->
+    <string name="import_all_vcard_string">ورود همهٔ پرونده‌های VCard</string>
+
+    <!-- Dialog message shown when searching VCard data from SD Card -->
+    <string name="searching_vcard_message">در حال جستجو برای VCardها روی کارت‌حافظه</string>
+
+    <!-- Dialog title shown when searching VCard data failed. -->
+    <string name="scanning_sdcard_failed_title">جستجوی کارت‌حافظه ناموفق بود</string>
+
+    <!-- Dialog message shown when searching VCard data failed. -->
+    <string name="scanning_sdcard_failed_message">جستجوی کارت‌حافظه ناموفق بود (علت: \"<xliff:g id="fail_reason">%s</xliff:g>\")</string>
+
+    <!-- The failed reason: "I/O Error" -->
+    <string name="fail_reason_io_error">خطای I/O</string>
+
+    <!-- The failed reason: "Failed to parse VCard data" -->
+    <string name="fail_reason_vcard_parse_error">به‌علت نامعلومی، نمی‌توان VCard را تجزیه کرد</string>
+
+    <!-- The failed reason: "The VCard is not supported right now, but may be supported in the future" -->
+    <string name="fail_reason_vcard_not_supported_error">نمی‌توان VCard را تجزیه کرد با این جال به نظر می‌رسد که در قالبی معتبر است، اما پیاده‌سازی کنونی آنرا پشتیبانی نمی‌کند</string>
+
+    <!-- The failed reason: "There is no VCard file" -->
+    <string name="fail_reason_no_vcard_file">هیچ VCardای بر روی کارت‌حافظه پیدا نشد</string>
+
+    <!-- The failed reason: "There is no valid VCard entry in the file(s)" -->
+    <string name="fail_reason_no_vcard_entry">برای انتخاب شما، هیچ مدخل VCardای پیدا نشد.</string>
+
+    <!-- The failed reason: "One or more files failed to be imported. (&lt;a list of file names&gt;)" -->
+    <string name="fail_reason_failed_to_read_files">ورود یک یا چند پرونده ناموفق بود (%s).</string>
+
+    <!-- The failed reason: "Unknown error". This message should not be shown
+         but it may in some buggy condition. -->
+    <string name="fail_reason_unknown">خطای نامشخص</string>
+
+    <!-- Dialog title shown when a user is asked to select VCard file -->
+    <string name="select_vcard_title">انتخاب پروندهٔ VCard</string>
+
+    <!-- Dialog message shown when a user is asked to choose VCard file -->
+    <string name="select_vcard_message">لطفا یک پروندهٔ VCard برای ورود انتخاب کنید</string>
+
+    <!-- The message shown while reading a vCard file/entry. The first argument is like
+    "Reading VCard" or "Reading VCard files" and the second is the display name of the current
+    data being parsed -->
+    <string name="progress_shower_message"><xliff:g id="action" example="Reading VCard">%s</xliff:g>\n<xliff:g id="filename" example="foo.vcf">%s</xliff:g></string>
+
+    <!-- Dialog title shown when reading VCard data -->
+    <string name="reading_vcard_title">در حال خواندن VCard</string>
+
+    <!-- Dialog message shown when reading a VCard file -->
+    <string name="reading_vcard_message">در حال خواندن پرونده‌های VCard</string>
+
+    <!-- Dialog message shown when importing VCard data into local database -->
+    <string name="importing_vcard_message">در حال ورود داده‌های VCard</string>
+
+    <!-- Dialog title shown when reading VCard data failed -->
+    <string name="reading_vcard_failed_title">خواندن داده‌های VCard ناموفق بود</string>
+
+    <!-- Dialog message shown when reading VCard data failed -->
+    <string name="reading_vcard_failed_message">نمی‌توان VCard را خواند.\nعلت ناتوانی: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+
+    <!-- Message while reading one vCard file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
+    <string name="reading_vcard_contacts"><xliff:g id="current_number">%s</xliff:g> از <xliff:g id="total_number">%s</xliff:g> آشنا</string>
+
+    <!-- Message while reading multiple vCard files "(current number) of (total number) files" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
+    <string name="reading_vcard_files"><xliff:g id="current_number">%s</xliff:g> از <xliff:g id="total_number">%s</xliff:g> پرونده</string>
+
+    <!-- The message for exporting all contacts in the phone, without caring its Account -->
+    <string name="export_all_contacts">همهٔ آشنایان</string>
+
+    <!-- The message for exporting only contacts is the phone locally, which are not associated with any account -->
+    <string name="export_phone_local_only">آشنایان ذخیره‌شده روی گوشی</string>
+
+    <!-- The menu item that launches VCard export activity -->
+    <string name="export_contact_list">خارج‌کردن آشنایان</string>
+
+    <!-- Dialog title shown when a user confirms whether he/she export Contact data -->
+    <string name="confirm_export_title">تایید خروج</string>
+
+    <!-- Dialog message shown when a user confirms whether he/she export Contact data -->
+    <string name="confirm_export_message">آیا از خروج فهرست آشنایان‌تان به \"<xliff:g id="vcard_filename">%s</xliff:g>\"مطمئنید؟</string>
+
+    <!-- Dialog title shown when exporting Contact data failed -->
+    <string name="exporting_contact_failed_title">خارج‌کردن داده‌های آشنایان ناموفق بود</string>
+
+    <!-- Dialog message shown when exporting Contact data failed -->
+    <string name="exporting_contact_failed_message">خارج‌کردن داده‌های آشنایان ناموفق بود.\nعلت ناتوانی: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+
+    <!-- The failed reason: "There is no exportable contact" -->
+    <string name="fail_reason_no_exportable_contact">هیچ آشنای قابل خارج‌کردن‌ وجود ندارد</string>
+
+    <!-- The failed reason: "Too many vcard files on the SD Card" -->
+    <string name="fail_reason_too_many_vcard">تعداد بسیار زیادی VCard روی کارت‌حافظه وجود دارد</string>
+
+    <!-- The failed reason: "Too long filename". This error usually does not happen. -->
+    <string name="fail_reason_too_long_filename">نام پرونده بسیار بلند است (\"<xliff:g id="filename">%s</xliff:g>\")</string>
+
+    <!-- The failed reason: "Cannot open or create the destination directory" -->
+    <string name="fail_reason_cannot_open_destination_dir">شاخهٔ هدف را نمی‌توان باز یا ایجاد کرد\"<xliff:g id="dir_name">%s</xliff:g>\"</string>
+
+    <!-- Dialog title shown when the application is exporting contact data outside -->
+    <string name="exporting_contact_list_title">درحال خروج داده‌های آشنایان</string>
+
+    <!-- Message shown when the application is exporting contact data outside -->
+    <string name="exporting_contact_list_message">در حال خروج داده‌های آشنایان به \"<xliff:g id="file_name">%s</xliff:g>\"</string>
+
+    <!-- The failed reason: "Could not initialize the exporter" -->
+    <string name="fail_reason_could_not_initialize_exporter">برنامهٔ خارج‌کننده را نمی‌توان راه‌اندازی کرد: \"<xliff:g id="exact_reason">%s</xliff:g>\"</string>
+
+    <!-- The failed reason: "Error occured during export" -->
+    <string name="fail_reason_error_occurred_during_export">خطایی در هنگام خروج رخ داد: \"<xliff:g id="exact_reason">%s</xliff:g>\"</string>
+
+    <!-- The error reason the vCard composer emits: "Failed to get database information" -->
+    <string name="composer_failed_to_get_database_infomation">بدست‌آوردن اطلاعات پایگاه‌داده ناموفق بود</string>
+
+    <!-- The error reason the vCard composer emits: "There is no exportable contact. You might choose un-exportable data" -->
+    <string name="composer_has_no_exportable_contact">هیچ آشنای قابل خارج‌کردنی وجود ندارد. احتمالا شما داده‌هایی که قابل خارج‌کردن نیستند را انتخاب کرده‌اید</string>
+
+    <!-- The error reason the vCard composer emits: "The vCard composer object is not correctly initialized" -->
+    <string name="composer_not_initialized">سازندهٔ VCard به درستی آغاز به کار نکرده است.</string>
+
+    <!-- The failed reason: "Could not open a specific file" -->
+    <string name="fail_reason_could_not_open_file">نمی‌توان \"<xliff:g id="file_name">%s</xliff:g>\" را باز کرد: <xliff:g id="exact_reason">%s</xliff:g></string>
+
+    <!-- Message in progress bar while exporting contact list to a file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
+    <string name="exporting_contact_list_progress"><xliff:g id="current_number">%s</xliff:g> از <xliff:g id="total_number">%s</xliff:g> آشنا</string>
+
+    <!-- The string used to describe Contacts as a searchable item within system search settings. -->
+    <string name="search_settings_description">نام‌های آشنایان شما</string>
+
+    <!-- Menu items for dialpad options as part of Pause and Wait ftr -->
+    <string name="add_2sec_pause">افزودن مکث ۲ ثانیه‌ای</string>
+    <string name="add_wait">افزودن انتظار</string>
+
+    <!-- Label for onscreen "Dial" button -->
+    <string name="dial_button_label">تماس</string>
+
+    <!-- Title for the call disambiguation dialog -->
+    <string name="call_disambig_title">تماس با استفاده از</string>
+
+    <!-- Title for the sms disambiguation dialog -->
+    <string name="sms_disambig_title">پیامک با استفاده از</string>
+
+    <!-- Message next to disamgiguation dialog check box -->
+    <string name="make_primary">این انتخاب را به‌یاد بسپار</string>
+
+    <!-- Shown as a toast when the user taps on a Fast-Track icon, and no application
+         was found that could perform the selected action -->
+    <string name="quickcontact_missing_app">هیچ برنامه‌ای برای اجرای این عمل پیدا نشد</string>
+
+    <!-- Shown as the checkbox label that, when checked, will store remember the
+         selected choice and shortcut to it in the future.  For example, this would
+         make a selected phone number the default. -->
+    <string name="quickcontact_remember_choice">این انتخاب را به‌یاد بسپار</string>
+
+    <!-- Shown as the header name for a person when the name is missing or unknown. -->
+    <string name="quickcontact_missing_name">نامشخص</string>
+
+    <!-- The menu item to open the list of accounts -->
+    <string name="menu_accounts">حساب‌ها</string>
+
+    <!-- The menu item to bulk import or bulk export contacts from SIM card or SD card. -->
+    <string name="menu_import_export">ورود/خروج</string>
+
+    <!-- Dialog title when selecting the bulk operation to perform from a list. -->
+    <string name="dialog_import_export">ورود/خروج آشنایان</string>
+
+    <!-- The menu item to share the currently viewed contact -->
+    <string name="menu_share">به اشتراک‌گذاری</string>
+
+    <!-- Dialog title when picking the application to share a contact with. -->
+    <string name="share_via">اشتراک‌گذاری آشنا بوسیلهٔ</string>
+
+    <!-- Toast indicating that sharing a contact has failed. -->
+    <string name="share_error">این آشنا را نمی‌توان به‌اشتراک گذاشت.</string>
+
+    <!-- Header that expands to list all name types when editing a structured name of a contact -->
+    <string name="nameLabelsGroup">نام</string>
+    <!-- Header that expands to list all nickname types when editing a nickname of a contact -->
+    <string name="nicknameLabelsGroup">نام مستعار</string>
+    <!-- Header that expands to list all organization types when editing an organization of a contact -->
+    <string name="organizationLabelsGroup">شرکت</string>
+    <!-- Header that expands to list all website types when editing a website of a contact -->
+    <string name="websiteLabelsGroup">وب‌گاه</string>
+    <!-- Header that expands to list all event types when editing an event of a contact -->
+    <string name="eventLabelsGroup">رویداد</string>
+
+    <!-- Single-character overlay for home phone numbers when creating desktop shortcuts -->
+    <string name="type_short_home">خ</string>
+    <!-- Single-character overlay for mobile phone numbers when creating desktop shortcuts -->
+    <string name="type_short_mobile">ه</string>
+    <!-- Single-character overlay for work phone numbers when creating desktop shortcuts -->
+    <string name="type_short_work">ک</string>
+    <!-- Single-character overlay for pager phone numbers when creating desktop shortcuts -->
+    <string name="type_short_pager">پ</string>
+    <!-- Single-character overlay for other phone numbers when creating desktop shortcuts -->
+    <string name="type_short_other">د</string>
+
+    <!-- In edit dialog, shown if the contact is marked as being read-only -->
+    <string name="edit_read_only">این آشنا فقط خواندنی است</string>
+
+    <!-- Shown as the header title over a collapsible section that, by default, hides
+         secondary contact detail edit fields, such as birthday. -->
+    <string name="edit_secondary_collapse">بیشتر</string>
+
+    <string name="dialog_primary_name">نام اصلی</string>
+    <string name="dialog_new_contact_account">ایجاد آشنا تحت حساب</string>
+
+    <string name="menu_sync_remove">حذف گروه همگام</string>
+    <string name="dialog_sync_add">افزودن گروه همگام</string>
+    <string name="display_more_groups">گروه‌های بیشتر \u2026</string>
+
+    <!-- List title for a special contacts group that covers all contacts.-->
+    <string name="display_ungrouped">همهٔ آشنایان دیگر</string>
+
+    <!-- List title for a special contacts group that covers all contacts that
+         aren't members of any other group. -->
+    <string name="display_all_contacts">همهٔ آشنایان</string>
+
+    <!-- Warning message given to users just before they remove a currently syncing
+         group that would also cause all ungrouped contacts to stop syncing. -->
+    <string name="display_warn_remove_ungrouped">در حال حذف \'<xliff:g id="group" example="Starred">%s</xliff:g>\' از همگام‌سازی، همچنین همهٔ آشنایانی که در گروهی نیستند از همگام‌سازی حذف خواهند شد.</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the phone
+         and will not be synced. -->
+    <string name="account_phone">فقط گوشی</string>
+
+    <!-- The label describing the display name field of an Email address, allowing the
+         user to give a specific name to describe this address. -->
+    <string name="label_email_display_name">نام نمایشی</string>
+
+    <!-- Action string for calling a custom phone number -->
+    <string name="call_custom">تماس با <xliff:g id="custom">%s</xliff:g></string>
+    <!-- Action string for calling a home phone number -->
+    <string name="call_home">تماس با خانه</string>
+    <!-- Action string for calling a mobile phone number -->
+    <string name="call_mobile">تماس با همراه</string>
+    <!-- Action string for calling a work phone number -->
+    <string name="call_work">تماس با کار</string>
+    <!-- Action string for calling a work fax phone number -->
+    <string name="call_fax_work">تماس با دورنگار کار</string>
+    <!-- Action string for calling a home fax phone number -->
+    <string name="call_fax_home">تماس با دورنگار خانه</string>
+    <!-- Action string for calling a pager phone number -->
+    <string name="call_pager">تماس با پیجر</string>
+    <!-- Action string for calling an other phone number -->
+    <string name="call_other">تماس با دیگر</string>
+    <!-- Action string for calling a callback number -->
+    <string name="call_callback">تماس با callback</string>
+    <!-- Action string for calling a car phone number -->
+    <string name="call_car">تماس با اتومبیل</string>
+    <!-- Action string for calling a company main phone number -->
+    <string name="call_company_main">تماس با شمارهٔ اصلی شرکت</string>
+    <!-- Action string for calling a ISDN phone number -->
+    <string name="call_isdn">تماس با ISDN</string>
+    <!-- Action string for calling a main phone number -->
+    <string name="call_main">تماس با اصلی</string>
+    <!-- Action string for calling an other fax phone number -->
+    <string name="call_other_fax">تماس با دورنگار دیگر</string>
+    <!-- Action string for calling a radio phone number -->
+    <string name="call_radio">تماس با رادیو</string>
+    <!-- Action string for calling a Telex phone number -->
+    <string name="call_telex">تماس با تلکس</string>
+    <!-- Action string for calling a TTY/TDD phone number -->
+    <string name="call_tty_tdd">تماس با TTY/TDD</string>
+    <!-- Action string for calling a work mobile phone number -->
+    <string name="call_work_mobile">تماس با همراه کار</string>
+    <!-- Action string for calling a work pager phone number -->
+    <string name="call_work_pager">تماس با پیجر کار</string>
+    <!-- Action string for calling an assistant phone number -->
+    <string name="call_assistant">تماس <xliff:g id="assistant">%s</xliff:g></string>
+    <!-- Action string for calling a MMS phone number -->
+    <string name="call_mms">تماس با MMS</string>
+
+    <!-- Action string for sending an SMS to a custom phone number -->
+    <string name="sms_custom">تماس با <xliff:g id="custom">%s</xliff:g></string>
+    <!-- Action string for sending an SMS to a home phone number -->
+    <string name="sms_home">پیامک به خانه</string>
+    <!-- Action string for sending an SMS to a mobile phone number -->
+    <string name="sms_mobile">پیامک به همراه</string>
+    <!-- Action string for sending an SMS to a work phone number -->
+    <string name="sms_work">پیامک به کار</string>
+    <!-- Action string for sending an SMS to a work fax phone number -->
+    <string name="sms_fax_work">پیامک به دورنگار کار</string>
+    <!-- Action string for sending an SMS to a home fax phone number -->
+    <string name="sms_fax_home">پیامک به دورنگار خانه</string>
+    <!-- Action string for sending an SMS to a pager phone number -->
+    <string name="sms_pager">پیامک به پیجر</string>
+    <!-- Action string for sending an SMS to an other phone number -->
+    <string name="sms_other">پیامک به دیگر</string>
+    <!-- Action string for sending an SMS to a callback number -->
+    <string name="sms_callback">Text callback</string>
+    <!-- Action string for sending an SMS to a car phone number -->
+    <string name="sms_car">پیامک به اتومبیل</string>
+    <!-- Action string for sending an SMS to a company main phone number -->
+    <string name="sms_company_main">پیامک به شمارهٔ اصلی کار</string>
+    <!-- Action string for sending an SMS to a ISDN phone number -->
+    <string name="sms_isdn">پیامک به ISDN</string>
+    <!-- Action string for sending an SMS to a main phone number -->
+    <string name="sms_main">پیامک به اصلی</string>
+    <!-- Action string for sending an SMS to an other fax phone number -->
+    <string name="sms_other_fax">پیامک به دورنگار دیگر</string>
+    <!-- Action string for sending an SMS to a radio phone number -->
+    <string name="sms_radio">پیامک به رادیو</string>
+    <!-- Action string for sending an SMS to a Telex phone number -->
+    <string name="sms_telex">پیامک به تلکس</string>
+    <!-- Action string for sending an SMS to a TTY/TDD phone number -->
+    <string name="sms_tty_tdd">پیامک به TTY/TDD</string>
+    <!-- Action string for sending an SMS to a work mobile phone number -->
+    <string name="sms_work_mobile">پیامک به همراه کار</string>
+    <!-- Action string for sending an SMS to a work pager phone number -->
+    <string name="sms_work_pager">پیامک به پیجر کار</string>
+    <!-- Action string for sending an SMS to an assistant phone number -->
+    <string name="sms_assistant">پیامک به <xliff:g id="assistant">%s</xliff:g></string>
+    <!-- Action string for sending an SMS to a MMS phone number -->
+    <string name="sms_mms">پیامک به MMS</string>
+
+    <!-- Action string for sending an email to a home email address -->
+    <string name="email_home">پست‌الکترونیکی خانه</string>
+    <!-- Action string for sending an email to a mobile email address -->
+    <string name="email_mobile">پست‌الکترونیکی همراه</string>
+    <!-- Action string for sending an email to a work email address -->
+    <string name="email_work">پست‌الکترونیکی کار</string>
+    <!-- Action string for sending an email to an other email address -->
+    <string name="email_other">پست‌الکترونیکی دیگر</string>
+    <!-- Action string for sending an email to a custom email address -->
+    <string name="email_custom">پست‌الکترونیکی به <xliff:g id="custom">%s</xliff:g></string>
+
+    <!-- Generic action string for sending an email -->
+    <string name="email">پست‌الکترونیکی</string>
+
+    <!-- Action string for viewing a home postal address -->
+    <string name="map_home">مشاهدهٔ نشانی خانه</string>
+    <!-- Action string for viewing a work postal address -->
+    <string name="map_work">مشاهدهٔ نشانی کار</string>
+    <!-- Action string for viewing an other postal address -->
+    <string name="map_other">مشاهدهٔ نشانی دیگر</string>
+    <!-- Action string for viewing a custom postal address -->
+    <string name="map_custom">مشاهدهٔ نشانی <xliff:g id="custom">%s</xliff:g></string>
+
+    <!-- Action string for starting an IM chat with the AIM protocol -->
+    <string name="chat_aim">گپ با استفاده از AIM</string>
+    <!-- Action string for starting an IM chat with the MSN or Windows Live protocol -->
+    <string name="chat_msn">گپ با استفاده از ویندوز لایو</string>
+    <!-- Action string for starting an IM chat with the Yahoo protocol -->
+    <string name="chat_yahoo">گپ با استفاده از یاهو</string>
+    <!-- Action string for starting an IM chat with the Skype protocol -->
+    <string name="chat_skype">گپ با استفاده از اسکایپ</string>
+    <!-- Action string for starting an IM chat with the QQ protocol -->
+    <string name="chat_qq">گپ با استفاده از QQ</string>
+    <!-- Action string for starting an IM chat with the Google Talk protocol -->
+    <string name="chat_gtalk">گپ با استفاده از گوگل تاک</string>
+    <!-- Action string for starting an IM chat with the ICQ protocol -->
+    <string name="chat_icq">گپ با استفاده از ICQ</string>
+    <!-- Action string for starting an IM chat with the Jabber protocol -->
+    <string name="chat_jabber">گپ با استفاده از Jabber</string>
+
+    <!-- Generic action string for starting an IM chat -->
+    <string name="chat">گپ</string>
+
+    <!-- Field title for the street of a structured postal address of a contact -->
+    <string name="postal_street">خیابان</string>
+    <!-- Field title for the PO box of a structured postal address of a contact -->
+    <string name="postal_pobox">جعبهٔ پستی</string>
+    <!-- Field title for the neighborhood of a structured postal address of a contact -->
+    <string name="postal_neighborhood">محله</string>
+    <!-- Field title for the city of a structured postal address of a contact -->
+    <string name="postal_city">شهر</string>
+    <!-- Field title for the region, or state, of a structured postal address of a contact -->
+    <string name="postal_region">استان</string>
+    <!-- Field title for the postal code of a structured postal address of a contact -->
+    <string name="postal_postcode">صندوق پستی</string>
+    <!-- Field title for the country of a structured postal address of a contact -->
+    <string name="postal_country">کشور</string>
+
+    <!-- Field title for the given name of a contact -->
+    <string name="name_given">نام</string>
+    <!-- Field title for the family name of a contact -->
+    <string name="name_family">نام خانوادگی</string>
+    <!-- Field title for the prefix name of a contact -->
+    <string name="name_prefix">پیشوند نام</string>
+    <!-- Field title for the middle name of a contact -->
+    <string name="name_middle">نام میانه</string>
+    <!-- Field title for the suffix name of a contact -->
+    <string name="name_suffix">پسوند نام</string>
+    <!-- Field title for the phonetic given name of a contact -->
+    <string name="name_phonetic_given">نام آوایی معین</string>
+    <!-- Field title for the phonetic middle name of a contact -->
+    <string name="name_phonetic_middle">نام آوایی میانه</string>
+    <!-- Field title for the phonetic family name of a contact -->
+    <string name="name_phonetic_family">نام آوایی خانوادگی</string>
+
+    <!-- The title for the action to remove a contact from an aggregated contact -->
+    <string name="split_label">جداسازی</string>
+    <!-- The explanation of what "split" will do. This needs word-smithing. -->
+    <string name="split_explanation">این داده، خودش به تنهایی یک آشنا خواهد شد.</string>
+
+    <!-- Formatting string for account name -->
+    <string name="account_name_format">از حساب<xliff:g id="source" example="Gmail">%1$s</xliff:g> : <xliff:g id="account" example="user@gmail.com">%2$s</xliff:g></string>
+
+    <!-- String describing which account type a contact came from when editing it -->
+    <string name="account_type_format">آشنای <xliff:g id="source" example="Gmail">%1$s</xliff:g></string>
+
+    <!-- String describing which account a contact came from when editing it -->
+    <string name="from_account_format">از <xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
+
+    <!-- Checkbox asking the user if they want to display a particular photo for a contact -->
+    <string name="use_photo_as_primary">استفاده از این تصویر</string>
+
+    <!-- Text used to explain that a contact cannot be edited since the data is read only -->
+    <string name="contact_read_only">اطلاعات آشنایان در<xliff:g id="source" example="Gmail">%1$s</xliff:g> بر روی گوشی قابل ویرایش نیستند.</string>
+
+    <!-- Text describing that a contact has no information available other than name and photo -->
+    <string name="no_contact_details">هیچ اطلاعات اضافی برای این آشنا وجود ندارد</string>
+</resources>
