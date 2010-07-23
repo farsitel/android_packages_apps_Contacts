@@ -1028,7 +1028,7 @@
     <!-- Title for data source when creating or editing a contact that doesn't
          belong to a specific account.  This contact will only exist on the phone
          and will not be synced. -->
-    <string name="account_phone">فقط گوشی</string>
+    <string name="account_phone">درون گوشی</string>
 
     <!-- The label describing the display name field of an Email address, allowing the
          user to give a specific name to describe this address. -->
@@ -1189,7 +1189,7 @@
     <!-- Field title for the suffix name of a contact -->
     <string name="name_suffix">پسوند نام</string>
     <!-- Field title for the phonetic given name of a contact -->
-    <string name="name_phonetic_given">نام آوایی معین</string>
+    <string name="name_phonetic_given">نام آوایی</string>
     <!-- Field title for the phonetic middle name of a contact -->
     <string name="name_phonetic_middle">نام آوایی میانه</string>
     <!-- Field title for the phonetic family name of a contact -->
