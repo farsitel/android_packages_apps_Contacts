@@ -39,6 +39,7 @@
         android:background="@drawable/btn_dial_textfield"
         android:textColor="@color/dialer_button_text"
         android:hint="@string/dialerKeyboardHintText"
+        android:inputType="localizedDigits"
      />
 
     <!-- Horizontal row of buttons (Voicemail + DialButton + Delete.) -->
