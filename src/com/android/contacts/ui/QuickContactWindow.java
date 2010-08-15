@@ -447,6 +447,7 @@ public class QuickContactWindow implements Window.Callback,
         showArrow.setVisibility(View.VISIBLE);
         ViewGroup.MarginLayoutParams param = (ViewGroup.MarginLayoutParams)showArrow.getLayoutParams();
         param.leftMargin = requestedX - arrowWidth / 2;
+        param.rightMargin = mScreenWidth - requestedX - arrowWidth / 2;
 
         hideArrow.setVisibility(View.INVISIBLE);
     }
