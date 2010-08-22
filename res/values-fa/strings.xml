@@ -82,7 +82,7 @@
     <string name="menu_viewContact">مشاهدهٔ آشنا</string>
 
     <!-- Menu item used to call a contact, containing the name of the contact to call -->
-    <string name="menu_callNumber">تماس با <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_callNumber">تماس با <xliff:g id="name">%Ls</xliff:g></string>
 
     <!-- Menu item used to add a star to a contact, which makes that contact show up at the top of favorites -->
     <string name="menu_addStar">افزودن به مورد علاقه‌ها</string>
@@ -150,7 +150,7 @@
     <string name="titleJoinContactDataWith">ملحق‌کردن چند آشنا</string>
 
     <!-- Info blurb on the Join Contact screen -->
-    <string name="blurbJoinContactDataWith">آشنایی را که می‌خواهید به <xliff:g id="name">%s</xliff:g> ملحق کنید، انتخاب کنید.</string>
+    <string name="blurbJoinContactDataWith">آشنایی را که می‌خواهید به <xliff:g id="name">%Ls</xliff:g> ملحق کنید، انتخاب کنید.</string>
 
     <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
     <string name="showAllContactsJoinItem">نمایش همهٔ آشناها</string>
@@ -213,7 +213,7 @@
     <string name="label_groups">گروه‌ها</string>
 
     <!-- Provides a delimeter in a list of groups. For example, "g1, g2" has ", g2" generated using this string -->
-    <string name="group_list">، <xliff:g id="groupName">%s</xliff:g></string>
+    <string name="group_list">، <xliff:g id="groupName">%Ls</xliff:g></string>
 
     <!-- Menu item used to send user to the edit contact screen -->
     <string name="menu_viewGroup">ویرایش گروه‌ها</string>
@@ -344,7 +344,7 @@
     <string name="select_group_title">گروه‌ها</string>
 
     <!-- The text displayed when the contacts list is empty while displaying a single group of contacts -->
-    <string name="groupEmpty">گروه \"<xliff:g id="groupName">%s</xliff:g>\" خالی است.</string>
+    <string name="groupEmpty">گروه \"<xliff:g id="groupName">%Ls</xliff:g>\" خالی است.</string>
 
     <!-- The description of all groups when asking the user what they want to display -->
     <string name="showAllGroups">همهٔ آشنایان</string>
@@ -440,7 +440,7 @@
     <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" is selected -->
     <plurals name="listTotalPhoneContacts">
         <item quantity="one">در حال نمایش ۱ آشنا با شماره تلفن</item>
-        <item quantity="other">در حال نمایش <xliff:g id="count">%d</xliff:g> آشنا با شماره تلفن</item>
+        <item quantity="other">در حال نمایش <xliff:g id="count">%Ld</xliff:g> آشنا با شماره تلفن</item>
     </plurals>
 
     <!-- Displayed at the top of the contacts showing the zero as total number of contacts visible when "Only contacts with phones" is selected -->
@@ -449,7 +449,7 @@
     <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" not selected -->
     <plurals name="listTotalAllContacts">
         <item quantity="one">در حال نمایش ۱ آشنا</item>
-        <item quantity="other">در حال نمایش <xliff:g id="count">%d</xliff:g> آشنا</item>
+        <item quantity="other">در حال نمایش <xliff:g id="count">%Ld</xliff:g> آشنا</item>
     </plurals>
 
     <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Only contacts with phones" not selected -->
@@ -458,7 +458,7 @@
     <!-- Displayed at the top of the contacts showing the total number of contacts found when "Only contacts with phones" not selected -->
     <plurals name="listFoundAllContacts">
         <item quantity="one">یک آشنا پیدا شد</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> آشنا پیدا شد</item>
+        <item quantity="other"><xliff:g id="count">%Ld</xliff:g> آشنا پیدا شد</item>
     </plurals>
 
     <!-- Displayed at the top of the contacts showing the zero total number of contacts found when "Only contacts with phones" not selected -->
@@ -486,7 +486,7 @@
     <string name="menu_sendTextMessage">ارسال پیامک</string>
 
     <!-- Menu item used to call a contact from the call log -->
-    <string name="recentCalls_callNumber">تماس با <xliff:g id="name">%s</xliff:g></string>
+    <string name="recentCalls_callNumber">تماس با <xliff:g id="name">%Ls</xliff:g></string>
 
     <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
     <string name="recentCalls_editNumberBeforeCall">قبل از تماس، شماره را ویرایش کن</string>
@@ -628,7 +628,7 @@
     <string name="call_time">زمان</string>
 
     <!-- In call detail screen, combine date/time string and relative time to give verbose call date/time -->
-    <string name="datetime_relative">"<xliff:g id="datetime" example="Dec 31, 2007, 11:00 am">%1$s</xliff:g> (<xliff:g id="relative" example="4 hours ago">%2$s</xliff:g>)"</string>
+    <string name="datetime_relative">"<xliff:g id="datetime" example="Dec 31, 2007, 11:00 am">%1$Ls</xliff:g> (<xliff:g id="relative" example="4 hours ago">%2$Ls</xliff:g>)"</string>
 
     <!-- In call detail screen, label for call duration -->
     <string name="call_duration">مدت زمان</string>
@@ -637,25 +637,25 @@
     <string name="header_actions">اعمال</string>
 
     <!-- In edit contact screen, combine the actual ringtone name with prefix for placement in spinner -->
-    <string name="ringtone_spinner">"صدای زنگ: <xliff:g id="ringtone" example="Caribbean Ice">%1$s</xliff:g>"</string>
+    <string name="ringtone_spinner">"صدای زنگ: <xliff:g id="ringtone" example="Caribbean Ice">%1$Ls</xliff:g>"</string>
 
     <!-- In edit contact screen, add more info spinner title -->
     <string name="add_more_items">افزودن موارد بیشتر</string>
 
     <!-- Action string for calling a phone number. -->
-    <string name="actionCall">تماس با <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionCall">تماس با <xliff:g id="type" example="mobile">%Ls</xliff:g></string>
 
     <!-- Action string for sending an email to an email address. -->
-    <string name="actionEmail">پست‌الکترونیکی به <xliff:g id="type" example="home">%s</xliff:g></string>
+    <string name="actionEmail">پست‌الکترونیکی به <xliff:g id="type" example="home">%Ls</xliff:g></string>
 
     <!-- Action string for sending a text message to a phone number. -->
-    <string name="actionText">پیامک به <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionText">پیامک به <xliff:g id="type" example="mobile">%Ls</xliff:g></string>
 
     <!-- Action string for sending an instant message to a chat buddy. -->
-    <string name="actionChat">گپ با <xliff:g id="type" example="Google Talk">%s</xliff:g></string>
+    <string name="actionChat">گپ با <xliff:g id="type" example="Google Talk">%Ls</xliff:g></string>
 
     <!-- Action string for viewing an address on a map. -->
-    <string name="actionMap">مشاهدهٔ نشانی<xliff:g id="type" example="home">%s</xliff:g></string>
+    <string name="actionMap">مشاهدهٔ نشانی<xliff:g id="type" example="home">%Ls</xliff:g></string>
 
     <!-- Description for incoming calls going to voice mail vs. not -->
     <string name="actionIncomingCall">تماس‌های ورودی</string>
@@ -664,7 +664,7 @@
     <string name="detailIncomingCallsGoToVoicemail">مستقیما به صندوق پستی ارسال خواهد شد</string>
 
     <!-- Description of what the contact specific ringtone is set to -->
-    <string name="detailsRingtone">تنظیم به <xliff:g id="ringtone_name" example="Flutey Phone">%s</xliff:g></string>
+    <string name="detailsRingtone">تنظیم به <xliff:g id="ringtone_name" example="Flutey Phone">%Ls</xliff:g></string>
 
     <!-- Action string for calling back a number in the call log -->
     <string name="callBack">تماس</string>
@@ -676,7 +676,7 @@
     <string name="returnCall">تماس</string>
 
     <!-- A nicely formatted call duration displayed when viewing call details. For example "42 mins 28 secs" -->
-    <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> دقیقه و <xliff:g id="seconds" example="28">%s</xliff:g> ثانیه</string>
+    <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%Ls</xliff:g> دقیقه و <xliff:g id="seconds" example="28">%Ls</xliff:g> ثانیه</string>
 
     <!-- A list separator for the Favorites tab indicating that items below it are frequently called contacts rather than starred contacts -->
     <string name="favoritesFrquentSeparator">تماس‌های مکرر</string>
@@ -846,7 +846,7 @@
     <!-- The message shown while reading a vCard file/entry. The first argument is like
     "Reading VCard" or "Reading VCard files" and the second is the display name of the current
     data being parsed -->
-    <string name="progress_shower_message"><xliff:g id="action" example="Reading VCard">%s</xliff:g>\n<xliff:g id="filename" example="foo.vcf">%s</xliff:g></string>
+    <string name="progress_shower_message"><xliff:g id="action" example="Reading VCard">%Ls</xliff:g>\n<xliff:g id="filename" example="foo.vcf">%s</xliff:g></string>
 
     <!-- Dialog title shown when reading VCard data -->
     <string name="reading_vcard_title">در حال خواندن VCard</string>
@@ -864,10 +864,10 @@
     <string name="reading_vcard_failed_message">نمی‌توان VCard را خواند.\nعلت ناتوانی: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
 
     <!-- Message while reading one vCard file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
-    <string name="reading_vcard_contacts"><xliff:g id="current_number">%s</xliff:g> از <xliff:g id="total_number">%s</xliff:g> آشنا</string>
+    <string name="reading_vcard_contacts"><xliff:g id="current_number">%Ls</xliff:g> از <xliff:g id="total_number">%Ls</xliff:g> آشنا</string>
 
     <!-- Message while reading multiple vCard files "(current number) of (total number) files" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
-    <string name="reading_vcard_files"><xliff:g id="current_number">%s</xliff:g> از <xliff:g id="total_number">%s</xliff:g> پرونده</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%Ls</xliff:g> از <xliff:g id="total_number">%Ls</xliff:g> پرونده</string>
 
     <!-- The message for exporting all contacts in the phone, without caring its Account -->
     <string name="export_all_contacts">همهٔ آشنایان</string>
@@ -927,7 +927,7 @@
     <string name="fail_reason_could_not_open_file">نمی‌توان \"<xliff:g id="file_name">%s</xliff:g>\" را باز کرد: <xliff:g id="exact_reason">%s</xliff:g></string>
 
     <!-- Message in progress bar while exporting contact list to a file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
-    <string name="exporting_contact_list_progress"><xliff:g id="current_number">%s</xliff:g> از <xliff:g id="total_number">%s</xliff:g> آشنا</string>
+    <string name="exporting_contact_list_progress"><xliff:g id="current_number">%Ls</xliff:g> از <xliff:g id="total_number">%Ls</xliff:g> آشنا</string>
 
     <!-- The string used to describe Contacts as a searchable item within system search settings. -->
     <string name="search_settings_description">نام‌های آشنایان شما</string>
@@ -1023,7 +1023,7 @@
 
     <!-- Warning message given to users just before they remove a currently syncing
          group that would also cause all ungrouped contacts to stop syncing. -->
-    <string name="display_warn_remove_ungrouped">در حال حذف \'<xliff:g id="group" example="Starred">%s</xliff:g>\' از همگام‌سازی، همچنین همهٔ آشنایانی که در گروهی نیستند از همگام‌سازی حذف خواهند شد.</string>
+    <string name="display_warn_remove_ungrouped">در حال حذف \'<xliff:g id="group" example="Starred">%Ls</xliff:g>\' از همگام‌سازی، همچنین همهٔ آشنایانی که در گروهی نیستند از همگام‌سازی حذف خواهند شد.</string>
 
     <!-- Title for data source when creating or editing a contact that doesn't
          belong to a specific account.  This contact will only exist on the phone
@@ -1035,7 +1035,7 @@
     <string name="label_email_display_name">نام نمایشی</string>
 
     <!-- Action string for calling a custom phone number -->
-    <string name="call_custom">تماس با <xliff:g id="custom">%s</xliff:g></string>
+    <string name="call_custom">تماس با <xliff:g id="custom">%Ls</xliff:g></string>
     <!-- Action string for calling a home phone number -->
     <string name="call_home">تماس با خانه</string>
     <!-- Action string for calling a mobile phone number -->
@@ -1073,12 +1073,12 @@
     <!-- Action string for calling a work pager phone number -->
     <string name="call_work_pager">تماس با پیجر کار</string>
     <!-- Action string for calling an assistant phone number -->
-    <string name="call_assistant">تماس <xliff:g id="assistant">%s</xliff:g></string>
+    <string name="call_assistant">تماس <xliff:g id="assistant">%Ls</xliff:g></string>
     <!-- Action string for calling a MMS phone number -->
     <string name="call_mms">تماس با MMS</string>
 
     <!-- Action string for sending an SMS to a custom phone number -->
-    <string name="sms_custom">تماس با <xliff:g id="custom">%s</xliff:g></string>
+    <string name="sms_custom">تماس با <xliff:g id="custom">%Ls</xliff:g></string>
     <!-- Action string for sending an SMS to a home phone number -->
     <string name="sms_home">پیامک به خانه</string>
     <!-- Action string for sending an SMS to a mobile phone number -->
@@ -1116,7 +1116,7 @@
     <!-- Action string for sending an SMS to a work pager phone number -->
     <string name="sms_work_pager">پیامک به پیجر کار</string>
     <!-- Action string for sending an SMS to an assistant phone number -->
-    <string name="sms_assistant">پیامک به <xliff:g id="assistant">%s</xliff:g></string>
+    <string name="sms_assistant">پیامک به <xliff:g id="assistant">%Ls</xliff:g></string>
     <!-- Action string for sending an SMS to a MMS phone number -->
     <string name="sms_mms">پیامک به MMS</string>
 
@@ -1129,7 +1129,7 @@
     <!-- Action string for sending an email to an other email address -->
     <string name="email_other">پست‌الکترونیکی دیگر</string>
     <!-- Action string for sending an email to a custom email address -->
-    <string name="email_custom">پست‌الکترونیکی به <xliff:g id="custom">%s</xliff:g></string>
+    <string name="email_custom">پست‌الکترونیکی به <xliff:g id="custom">%Ls</xliff:g></string>
 
     <!-- Generic action string for sending an email -->
     <string name="email">پست‌الکترونیکی</string>
@@ -1141,7 +1141,7 @@
     <!-- Action string for viewing an other postal address -->
     <string name="map_other">مشاهدهٔ نشانی دیگر</string>
     <!-- Action string for viewing a custom postal address -->
-    <string name="map_custom">مشاهدهٔ نشانی <xliff:g id="custom">%s</xliff:g></string>
+    <string name="map_custom">مشاهدهٔ نشانی <xliff:g id="custom">%Ls</xliff:g></string>
 
     <!-- Action string for starting an IM chat with the AIM protocol -->
     <string name="chat_aim">گپ با استفاده از AIM</string>
@@ -1201,10 +1201,10 @@
     <string name="split_explanation">این داده، خودش به تنهایی یک آشنا خواهد شد.</string>
 
     <!-- Formatting string for account name -->
-    <string name="account_name_format">از حساب<xliff:g id="source" example="Gmail">%1$s</xliff:g> : <xliff:g id="account" example="user@gmail.com">%2$s</xliff:g></string>
+    <string name="account_name_format">از حساب<xliff:g id="source" example="Gmail">%1$Ls</xliff:g> : <xliff:g id="account" example="user@gmail.com">%2$s</xliff:g></string>
 
     <!-- String describing which account type a contact came from when editing it -->
-    <string name="account_type_format">آشنای <xliff:g id="source" example="Gmail">%1$s</xliff:g></string>
+    <string name="account_type_format">آشنای <xliff:g id="source" example="Gmail">%1$Ls</xliff:g></string>
 
     <!-- String describing which account a contact came from when editing it -->
     <string name="from_account_format">از <xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
@@ -1213,7 +1213,7 @@
     <string name="use_photo_as_primary">استفاده از این تصویر</string>
 
     <!-- Text used to explain that a contact cannot be edited since the data is read only -->
-    <string name="contact_read_only">اطلاعات آشنایان در<xliff:g id="source" example="Gmail">%1$s</xliff:g> بر روی گوشی قابل ویرایش نیستند.</string>
+    <string name="contact_read_only">اطلاعات آشنایان در<xliff:g id="source" example="Gmail">%1$Ls</xliff:g> بر روی گوشی قابل ویرایش نیستند.</string>
 
     <!-- Text describing that a contact has no information available other than name and photo -->
     <string name="no_contact_details">هیچ اطلاعات اضافی برای این آشنا وجود ندارد</string>
