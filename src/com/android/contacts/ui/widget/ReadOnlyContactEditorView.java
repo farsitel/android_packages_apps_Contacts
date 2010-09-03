@@ -163,7 +163,7 @@ class ReadOnlyContactEditorView extends BaseContactEditorView {
                 v = (TextView) field.findViewById(R.id.label);
                 v.setText(mContext.getText(R.string.phoneLabelsGroup));
                 v = (TextView) field.findViewById(R.id.data);
-                v.setText(PhoneNumberUtils.formatNumber(phone.getAsString(Phone.NUMBER)));
+                v.setText(String.format("%Ls", PhoneNumberUtils.formatNumber(phone.getAsString(Phone.NUMBER))));
                 mGeneral.addView(field);
             }
         }

@@ -1261,7 +1261,7 @@ public class ViewContactActivity extends Activity
             if (data != null) {
                 if (entry.mimetype.equals(Phone.CONTENT_ITEM_TYPE)
                         || entry.mimetype.equals(Constants.MIME_SMS_ADDRESS)) {
-                    data.setText(PhoneNumberUtils.formatNumber(entry.data));
+                    data.setText(String.format("%Ls", PhoneNumberUtils.formatNumber(entry.data)));
                 } else {
                     data.setText(entry.data);
                 }

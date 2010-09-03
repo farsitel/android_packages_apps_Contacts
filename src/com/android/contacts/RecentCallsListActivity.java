@@ -508,7 +508,7 @@ public class RecentCallsListActivity extends ListActivity
                     ? com.android.internal.R.drawable.expander_ic_maximized
                     : com.android.internal.R.drawable.expander_ic_minimized;
             views.groupIndicator.setImageResource(groupIndicator);
-            views.groupSize.setText("(" + groupSize + ")");
+            views.groupSize.setText(String.format("(%Ld)", groupSize));
             bindView(context, view, cursor);
         }
 
@@ -807,7 +807,7 @@ public class RecentCallsListActivity extends ListActivity
         sEditable.append(number);
 
         PhoneNumberUtils.formatNumber(sEditable, sFormattingType);
-        return sEditable.toString();
+        return String.format("%Ls", sEditable.toString());
     }
 
     private void resetNewCallsFlag() {
