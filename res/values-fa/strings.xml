@@ -125,9 +125,7 @@
     <string name="splitConfirmation_title">تفکیک آشنا</string>
 
     <!-- Confirmation dialog for separating contacts into multiple instances  -->
-    <string name="splitConfirmation">این آشنا به چند آشنا تفکیک شود؟
-به ازاء هر گروه از اطلاعات تماس، یک آشنا ایجاد خواهد شد.
-    </string>
+    <string name="splitConfirmation">این آشنا به چند آشنا تفکیک شود؟\nبه ازاء هر گروه از اطلاعات تماس، یک آشنا ایجاد خواهد شد.</string>
 
     <!-- Menu item that joins an aggregate with another aggregate -->
     <string name="menu_joinAggregate">ادغام</string>
@@ -415,7 +413,7 @@
     <string name="simContacts_title">آشنایان سیم‌کارت</string>
 
     <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts, and contact syncing is enabled -->
-    <string name="noContactsHelpTextWithSyncForCreateShortcut">‏«آشنایی وجود ندارد. (اگر به تازگی حسابی اضافه کرده‌اید، همگام‌سازی آشنایان ممکن است چند دقیقه طول بکشد.)»
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">‏«آشنایی وجود ندارد. (اگر به تازگی حسابی اضافه کرده‌اید، همگام‌سازی آشنایان ممکن است چند دقیقه طول بکشد.)»</string>
 
     <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts -->
     <string name="noContactsHelpTextForCreateShortcut">‏«آشنایی برای نمایش ندارید.»</string>
@@ -727,7 +725,7 @@
     <!-- The message shown while reading a vCard file/entry. The first argument is like
     "Reading VCard" or "Reading VCard files" and the second is the display name of the current
     data being parsed -->
-    <string name="progress_shower_message"><xliff:g id="action" example="Reading VCard">‏%1$Ls</xliff:g>\n<xliff:g id="filename" example="foo.vcf">%2$Ls</xliff:g></string>
+    <string name="progress_shower_message"><xliff:g id="action" example="Reading VCard">‏%1$s</xliff:g>\n<xliff:g id="filename" example="foo.vcf">%2$s</xliff:g></string>
 
     <!-- Dialog title shown when reading VCard data -->
     <string name="reading_vcard_title">در حال خواندن vCard</string>
@@ -773,7 +771,7 @@
     <!-- Dialog title shown when the application is exporting contact data outside -->
     <string name="exporting_contact_list_title">ارسال داده‌های آشنا</string>
 
-    <!-- Message shown when the application is exporting contact data outside -->Export
+    <!-- Message shown when the application is exporting contact data outside -->
     <string name="exporting_contact_list_message">ارسال داده‌های آشنا به «<xliff:g id="file_name">%s</xliff:g>»</string>
 
     <!-- The failed reason shown when contacts exporter fails to be initialized.
@@ -1116,9 +1114,7 @@
     <string name="upgrade_in_progress">فهرست آشنایان در حال به‌روز شدن است.\n\nلطفاً صبر کنید\u2026</string>
 
     <!-- Text shown in the contacts app if the background process updating contacts fails because of memory shortage -->
-    <string name="upgrade_out_of_memory">در حال ارتقای آشنایان
-    \n\nبرای انجام این ارتقا نیاز به <xliff:g id="size_in_megabytes">%Ld</xliff:g> مگابایت
-    حافظهٔ داخلی گوشی دارید.\n\nیکی از گزینه‌های زیر را انتخاب کنید:</string>
+    <string name="upgrade_out_of_memory">در حال ارتقای آشنایان\n\nبرای انجام این ارتقا نیاز به <xliff:g id="size_in_megabytes">%Ld</xliff:g> مگابایت حافظهٔ داخلی گوشی دارید.\n\nیکی از گزینه‌های زیر را انتخاب کنید:</string>
 
     <!-- Button shown in the contacts app if the background process updating contacts fails because of memory shortage -->
     <string name="upgrade_out_of_memory_uninstall">حذف بعضی از برنامه‌ها</string>
