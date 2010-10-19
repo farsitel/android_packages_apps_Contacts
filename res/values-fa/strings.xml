@@ -134,7 +134,7 @@
     <string name="titleJoinContactDataWith">ادغام آشنایان</string>
 
     <!-- Info blurb on the Join Contact screen -->
-    <string name="blurbJoinContactDataWith">آشنایی را برای ادغام با <xliff:g id="name">%s</xliff:g> انتخاب کنید.</string>
+    <string name="blurbJoinContactDataWith">آشنایی را برای ادغام با <xliff:g id="name">%Ls</xliff:g> انتخاب کنید.</string>
 
     <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
     <string name="showAllContactsJoinItem">نمایش تمام آشنایان</string>
@@ -355,7 +355,7 @@
     <string name="menu_sendTextMessage">ارسال پیامک</string>
 
     <!-- Menu item used to call a contact from the call log -->
-    <string name="recentCalls_callNumber">تماس با <xliff:g id="name">%s</xliff:g></string>
+    <string name="recentCalls_callNumber">تماس با <xliff:g id="name">%Ls</xliff:g></string>
 
     <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
     <string name="recentCalls_editNumberBeforeCall">ویرایش شماره پیش از تماس</string>
@@ -413,46 +413,46 @@
     <string name="simContacts_title">آشنایان سیم‌کارت</string>
 
     <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts, and contact syncing is enabled -->
-    <string name="noContactsHelpTextWithSyncForCreateShortcut">‏«آشنایی وجود ندارد. (اگر به تازگی حسابی اضافه کرده‌اید، همگام‌سازی آشنایان ممکن است چند دقیقه طول بکشد.)»</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">‏آشنایی وجود ندارد. (اگر به تازگی حسابی اضافه کرده‌اید، هماهنگ‌سازی آشنایان ممکن است چند دقیقه طول بکشد.)</string>
 
     <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts -->
-    <string name="noContactsHelpTextForCreateShortcut">‏«آشنایی برای نمایش ندارید.»</string>
+    <string name="noContactsHelpTextForCreateShortcut">‏آشنایی برای نمایش ندارید.</string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled -->
-    <string name="noContactsHelpText">‏«آشنایی برای نمایش ندارید.\n\nبرای افزودن آشنا, دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را فشار دهید و یکی از گزینه‌های زیر را انتخاب کنید:\n
-        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی حسابی که اطلاعات آشنایانتان در آن ذخیره شده است. این اطلاعات با گوشی شما همگام‌سازی می‌شود.\n</li>
+    <string name="noContactsHelpText">‏آشنایی برای نمایش ندارید.\n\nبرای افزودن آشنا, دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را فشار دهید و یکی از گزینه‌های زیر را انتخاب کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی حسابی که اطلاعات آشنایانتان در آن ذخیره شده است. این اطلاعات با گوشی شما هماهنگ‌سازی می‌شود.\n</li>
         \n<li><font fgcolor="#ffffffff"><b>آشنای جدید</b></font> برای ایجاد آشنای جدید\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>ارسال/دریافت</b></font>\n</li>»
+        \n<li><font fgcolor="#ffffffff"><b>ارسال یا دریافت</b></font>\n</li>
     </string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled -->
-    <string name="noContactsHelpTextWithSync">‏«آشنایی برای نمایش ندارید.(اگر به تازگی حسابی اضافه کردید، همگام‌سازی ممکن است چند دقیقه طول بکشد.)\n\nبرای افزودن آشنا, دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را فشار دهید و یکی از گزینه‌های زیر را انتخاب کنید:\n
-        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی حسابی که اطلاعات آشنایانتان در آن ذخیره شده است. این اطلاعات با گوشی شما همگام‌سازی می‌شود.\n</li>
+    <string name="noContactsHelpTextWithSync">‏آشنایی برای نمایش ندارید.(اگر به تازگی حسابی اضافه کردید، هماهنگ‌سازی ممکن است چند دقیقه طول بکشد.)\n\nبرای افزودن آشنا, دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را فشار دهید و یکی از گزینه‌های زیر را انتخاب کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی حسابی که اطلاعات آشنایانتان در آن ذخیره شده است. این اطلاعات با گوشی شما هماهنگ‌سازی می‌شود.\n</li>
         \n<li><font fgcolor="#ffffffff"><b>نمایش گزینه‌ها</b></font> برای نمایش آشنایان پنهان\n</li>
         \n<li><font fgcolor="#ffffffff"><b>آشنای جدید</b></font> برای ایجاد آشنای جدید\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>ارسال/دریافت</b></font>\n</li>»
+        \n<li><font fgcolor="#ffffffff"><b>ارسال یا دریافت</b></font>\n</li>
     </string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma)-->
-    <string name="noContactsNoSimHelpText">‏«آشنایی برای نمایش ندارید.\n\nبرای افزودن آشنا, دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را فشار دهید و یکی از گزینه‌های زیر را انتخاب کنید :\n
-        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی حسابی که اطلاعات آشنایانتان در آن ذخیره شده است. این اطلاعات با گوشی شما همگام‌سازی می‌شود.\n</li>
+    <string name="noContactsNoSimHelpText">‏آشنایی برای نمایش ندارید.\n\nبرای افزودن آشنا, دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را فشار دهید و یکی از گزینه‌های زیر را انتخاب کنید :\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی حسابی که اطلاعات آشنایانتان در آن ذخیره شده است. این اطلاعات با گوشی شما هماهنگ‌سازی می‌شود.\n</li>
         \n<li><font fgcolor="#ffffffff"><b>آشنای جدید</b></font> برای ایجاد آشنای جدید\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>ارسال/دریافت</b></font>\n</li>»
+        \n<li><font fgcolor="#ffffffff"><b>ارسال یا دریافت</b></font>\n</li>
     </string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma) -->
-    <string name="noContactsNoSimHelpTextWithSync">‏«آشنایی برای نمایش ندارید.(اگر به تازگی حسابی اضافه کردید، همگام‌سازی ممکن است چند دقیقه طول بکشد.), دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را فشار دهید و یکی از گزینه‌های زیر را انتخاب کنید:\n
-        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی حسابی که اطلاعات آشنایانتان در آن ذخیره شده است. این اطلاعات با گوشی شما همگام‌سازی می‌شود.\n</li>
+    <string name="noContactsNoSimHelpTextWithSync">‏آشنایی برای نمایش ندارید.(اگر به تازگی حسابی اضافه کردید، هماهنگ‌سازی ممکن است چند دقیقه طول بکشد.), دکمهٔ <font fgcolor="#ffffffff"><b>منو</b></font> را فشار دهید و یکی از گزینه‌های زیر را انتخاب کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا پیکربندی حسابی که اطلاعات آشنایانتان در آن ذخیره شده است. این اطلاعات با گوشی شما هماهنگ‌سازی می‌شود.\n</li>
         \n<li><font fgcolor="#ffffffff"><b>نمایش گزینه‌ها</b></font> برای نمایش آشنایان پنهان\n</li>
         \n<li><font fgcolor="#ffffffff"><b>آشنای جدید</b></font> برای ایجاد یک آشنا و وارد کردن اطلاعات تماس آن برای ایجاد آشنای جدید\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>ارسال/دریافت</b></font>\n</li>»
+        \n<li><font fgcolor="#ffffffff"><b>ارسال یا دریافت</b></font>\n</li>
     </string>
 
     <!-- Displayed full screen when the user has no favorites and they are displaying the favorites tab -->
-    <string name="noFavoritesHelpText">‏«آشنای ویژه‌ ندارید.\n\nبرای افزودن آشنایی به فهرست ویژه:\n
+    <string name="noFavoritesHelpText">‏آشنای ویژه‌ ندارید.\n\nبرای افزودن آشنایی به فهرست ویژه:\n
         <li>برگهٔ <b>آشنایان</b> را انتخاب کنید\n</li>
         \n<li>آشنایی را که می‌خواهید به فهرست ویژه اضافه کنید، انتخاب کنید\n</li>
-        \n<li>ستارهٔ کنار نام آشنا را انتخاب کنید\n</li>»
+        \n<li>ستارهٔ کنار نام آشنا را انتخاب کنید\n</li>
     </string>
 
     <!-- Live folder label for all contacts -->
@@ -725,7 +725,7 @@
     <!-- The message shown while reading a vCard file/entry. The first argument is like
     "Reading VCard" or "Reading VCard files" and the second is the display name of the current
     data being parsed -->
-    <string name="progress_shower_message"><xliff:g id="action" example="Reading VCard">‏%1$s</xliff:g>\n<xliff:g id="filename" example="foo.vcf">%2$s</xliff:g></string>
+    <string name="progress_shower_message"><xliff:g id="action" example="Reading VCard">‏‏%1$s</xliff:g>\n<xliff:g id="filename" example="foo.vcf">%2$s</xliff:g></string>
 
     <!-- Dialog title shown when reading VCard data -->
     <string name="reading_vcard_title">در حال خواندن vCard</string>
@@ -817,7 +817,7 @@
     <string name="sms_disambig_title">پیامک</string>
 
     <!-- Message next to disamgiguation dialog check box -->
-    <string name="make_primary">حفظ این انتخاب</string>
+    <string name="make_primary">به یاد سپردن این انتخاب</string>
 
     <!-- Shown as a toast when the user taps on a Fast-Track icon, and no application
          was found that could perform the selected action -->
@@ -826,7 +826,7 @@
     <!-- Shown as the checkbox label that, when checked, will store remember the
          selected choice and shortcut to it in the future.  For example, this would
          make a selected phone number the default. -->
-    <string name="quickcontact_remember_choice">حفظ این انتخاب</string>
+    <string name="quickcontact_remember_choice">به یاد سپردن این انتخاب</string>
 
     <!-- Shown as the header name for a person when the name is missing or unknown. -->
     <string name="quickcontact_missing_name">ناشناس</string>
@@ -835,10 +835,10 @@
     <string name="menu_accounts">حساب‌ها</string>
 
     <!-- The menu item to bulk import or bulk export contacts from SIM card or SD card. -->
-    <string name="menu_import_export">ارسال/دریافت</string>
+    <string name="menu_import_export">ارسال یا دریافت</string>
 
     <!-- Dialog title when selecting the bulk operation to perform from a list. -->
-    <string name="dialog_import_export">ارسال/دریافت آشنایان</string>
+    <string name="dialog_import_export">ارسال یا دریافت آشنایان</string>
 
     <!-- The menu item to share the currently viewed contact -->
     <string name="menu_share">اشتراک‌گذاری</string>
@@ -852,7 +852,7 @@
     <!-- Header that expands to list all name types when editing a structured name of a contact -->
     <string name="nameLabelsGroup">نام</string>
     <!-- Header that expands to list all nickname types when editing a nickname of a contact -->
-    <string name="nicknameLabelsGroup">لقب</string>
+    <string name="nicknameLabelsGroup">نام خودمانی</string>
     <!-- Header that expands to list all organization types when editing an organization of a contact -->
     <string name="organizationLabelsGroup">شرکت</string>
     <!-- Header that expands to list all website types when editing a website of a contact -->
@@ -872,17 +872,17 @@
     <string name="type_short_other">غ</string>
 
     <!-- In edit dialog, shown if the contact is marked as being read-only -->
-    <string name="edit_read_only">این آشنا فقط-خواندی است.</string>
+    <string name="edit_read_only">این آشنا فقط-خواندنی است.</string>
 
     <!-- Shown as the header title over a collapsible section that, by default, hides
          secondary contact detail edit fields, such as birthday. -->
     <string name="edit_secondary_collapse">بیشتر</string>
 
     <string name="dialog_primary_name">نام اصلی</string>
-    <string name="dialog_new_contact_account">ساختن آشنا در حسابِ</string>
+    <string name="dialog_new_contact_account">افزودن آشنا در حساب</string>
 
-    <string name="menu_sync_remove">حذف گروه همگام</string>
-    <string name="dialog_sync_add">افزودن گروه همگام</string>
+    <string name="menu_sync_remove">حذف گروه هماهنگ</string>
+    <string name="dialog_sync_add">افزودن گروه هماهنگ</string>
     <string name="display_more_groups">گروه‌های بیشتر\u2026</string>
 
     <!-- List title for a special contacts group that covers all contacts.-->
@@ -894,12 +894,12 @@
 
     <!-- Warning message given to users just before they remove a currently syncing
          group that would also cause all ungrouped contacts to stop syncing. -->
-    <string name="display_warn_remove_ungrouped">حذف «<xliff:g id="group" example="Starred">%s</xliff:g>» از همگام‌ها، تمام آشنایان دسته‌بندی نشده را از همگام‌ها حذف می‌کند.</string>
+    <string name="display_warn_remove_ungrouped">با حذف «<xliff:g id="group" example="Starred">%s</xliff:g>» از گروه‌های هماهنگ، آشنایانی که بی‌گروه می‌مانند، دیگر هماهنگ نخواهند شد.</string>
 
     <!-- Title for data source when creating or editing a contact that doesn't
          belong to a specific account.  This contact will only exist on the phone
          and will not be synced. -->
-    <string name="account_phone">فقط-گوشی (همگام‌سازی نشده)</string>
+    <string name="account_phone">فقط گوشی (هماهنگ نشده)</string>
 
     <!-- Action string for calling a custom phone number -->
     <string name="call_custom">تماس با <xliff:g id="custom">%s</xliff:g></string>
@@ -1050,11 +1050,11 @@
     <!-- Field title for the family name of a contact -->
     <string name="name_family">نام خانوادگی</string>
     <!-- Field title for the prefix name of a contact -->
-    <string name="name_prefix">پیشوند نام</string>
+    <string name="name_prefix">پیشوند</string>
     <!-- Field title for the middle name of a contact -->
     <string name="name_middle">نام میانی</string>
     <!-- Field title for the suffix name of a contact -->
-    <string name="name_suffix">پسوند نام</string>
+    <string name="name_suffix">پسوند</string>
     <!-- Field title for the phonetic given name of a contact -->
     <string name="name_phonetic_given">نام‌آوایی نام کوچک</string>
     <!-- Field title for the phonetic middle name of a contact -->
@@ -1108,7 +1108,7 @@
     <string name="pick_photo">انتخاب عکس از گالری</string>
 
     <!-- Text shown in the contacts app while the background process updates contacts after a locale change -->
-    <string name="locale_change_in_progress">به دلیل تغییر زبان، فهرست آشنایان در حال به روز شدن است.\n\nلطفاً صبر کنید\u2026</string>
+    <string name="locale_change_in_progress">به دلیل تغییر زبان، فهرست آشنایان در حال به‌روز شدن است.\n\nلطفاً صبر کنید\u2026</string>
 
     <!-- Text shown in the contacts app while the background process updates contacts after a system upgrade -->
     <string name="upgrade_in_progress">فهرست آشنایان در حال به‌روز شدن است.\n\nلطفاً صبر کنید\u2026</string>
