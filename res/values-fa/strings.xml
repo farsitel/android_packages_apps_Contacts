@@ -109,11 +109,11 @@
 
     <!-- Menu item that makes a phone the default for a contact. The default number used when you
          try to call a contact without specifying a specific number. -->
-    <string name="menu_makeDefaultNumber">شمارهٔ اصلی شود</string>
+    <string name="menu_makeDefaultNumber">شمارهٔ اصلی شود.</string>
 
     <!-- Menu item that makes an email address the default for a contact. The default email used
          when you try to email a contact without specifying a specific address. -->
-    <string name="menu_makeDefaultEmail">پست الکترونیکی اصلی شود</string>
+    <string name="menu_makeDefaultEmail">پست الکترونیکی اصلی شود.</string>
 
     <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
     <string name="menu_splitAggregate">تفکیک</string>
@@ -158,7 +158,7 @@
     <string name="deleteConfirmation_title">حذف</string>
 
     <!-- Warning dialog contents after users selects to delete a ReadOnly contact. -->
-    <string name="readOnlyContactWarning">آشنایان را از حساب‌های فقط-خواندنی نمی‌توانید حذف کنید، ولی می‌توانید آن‌ها را در فهرست آشنایان، پنهان کنید.</string>
+    <string name="readOnlyContactWarning">آشنایان را از حساب‌های فقط-خواندنی نمی‌توانید حذف کنید، ولی می‌توانید آن‌ها را در فهرست آشنایان پنهان کنید.</string>
 
     <!-- Warning dialog contents after users selects to delete a contact with ReadOnly and Writable sources. -->
     <string name="readOnlyContactDeleteConfirmation">این آشنا شامل اطلاعات چندین حساب است. اطلاعات مربوط به حساب‌های فقط-خواندی پنهان می‌شود، نه حذف.</string>
@@ -358,7 +358,7 @@
     <string name="recentCalls_callNumber">تماس با <xliff:g id="name">%Ls</xliff:g></string>
 
     <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
-    <string name="recentCalls_editNumberBeforeCall">ویرایش شماره پیش از تماس</string>
+    <string name="recentCalls_editNumberBeforeCall">ویرایش شماره، پیش از تماس</string>
 
     <!-- Menu item used to add a number from the call log to contacts -->
     <string name="recentCalls_addToContact">افزودن به آشنایان</string>
@@ -700,7 +700,7 @@
     <!-- The failed reason shown when vCard parser was not able to be parsed by the current vCard
          implementation. This might happen even when the input vCard is completely valid, though
          we believe it is rather rare in the actual world. -->
-    <string name="fail_reason_vcard_parse_error">به دلایل نامعلومی خواندن vCard ناموفق بود.</string>
+    <string name="fail_reason_vcard_parse_error">به دلایل نامعلوم، خواندن vCard ناموفق بود.</string>
 
     <!-- The failed reason shown when the current vCard importer cannot parse the file since the
          parser is incomplete (actually, there's missing part in the current vCard parser, though
@@ -789,7 +789,7 @@
     <!-- This error message shown when the user actually have no contact
          (e.g. just after data-wiping), or, data providers of the contact list prohibits their
          contacts from being exported to outside world via vcard exporter, etc. -->
-    <string name="composer_has_no_exportable_contact">یا آشنایی ندارید یا یک تأمین‌کنندهٔ داده ارسال آشنایان را ممنوع کرده است.</string>
+    <string name="composer_has_no_exportable_contact">یا آشنایی ندارید یا یک تأمین‌کنندهٔ داده، ارسال آشنایان را ممنوع کرده است.</string>
 
     <!-- The error reason the vCard composer may emit when vCard composer is not initialized
          even when needed.
