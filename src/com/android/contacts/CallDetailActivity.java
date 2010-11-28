@@ -37,6 +37,7 @@ import android.telephony.PhoneNumberUtils;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.text.format.DateUtils;
+import android.text.format.Jalali;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -350,7 +351,7 @@ public class CallDetailActivity extends ListActivity implements
                 }
 
                 TextView number = (TextView) convertView.findViewById(R.id.number);
-                number.setText(entry.number);
+                number.setText(Jalali.persianDigitsIfPersian(entry.number));
             }
 
             return convertView;
