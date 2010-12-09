@@ -88,6 +88,7 @@ import android.provider.ContactsContract.Intents.Insert;
 import android.provider.ContactsContract.Intents.UI;
 import android.telephony.TelephonyManager;
 import android.text.Editable;
+import android.text.FriBidi;
 import android.text.Html;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -126,6 +127,8 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import static android.text.format.Jalali.DIGIT_DIFF;
 
 /**
  * Displays a list of contacts. Usually is embedded into the ContactsActivity.
@@ -3214,6 +3217,14 @@ public class ContactsListActivity extends ListActivity implements View.OnCreateC
             cursor.copyStringToBuffer(dataColumnIndex, cache.dataBuffer);
 
             size = cache.dataBuffer.sizeCopied;
+            if (dataColumnIndex == PHONE_NUMBER_COLUMN_INDEX && FriBidi.isPersian()) {
+                char c = 0;
+                for (int i=0; i<size; i++) {
+                    c = cache.dataBuffer.data[i];
+                    if ((c >= '0') && (c <= '9'))
+                        cache.dataBuffer.data[i] += DIGIT_DIFF;
+                }
+            }
             view.setData(cache.dataBuffer.data, size);
 
             // Set the label.

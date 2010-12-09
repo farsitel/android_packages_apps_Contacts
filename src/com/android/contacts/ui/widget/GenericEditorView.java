@@ -232,6 +232,7 @@ public class GenericEditorView extends RelativeLayout implements Editor, View.On
             fieldView.setInputType(inputType);
             if (inputType == InputType.TYPE_CLASS_PHONE) {
                 fieldView.addTextChangedListener(new PhoneNumberFormattingTextWatcher());
+                fieldView.setInputType(fieldView.getInputType() | InputType.TYPE_TEXT_FLAG_LOCALIZED_DIGITS);
             }
             fieldView.setMinLines(field.minLines);
 
